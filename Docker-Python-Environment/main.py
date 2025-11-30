@@ -9,10 +9,10 @@ from torch.utils.data import Subset
 import time
 
 # set params
-num_epochs = 100
-batch_size = 64
+num_epochs = 10 
+batch_size = 32
 learning_rate = 0.001
-
+sample_size = 20000
 
 #checks if cuda is available and uses it if it is
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -30,7 +30,7 @@ transform = transforms.Compose([
 
 # pull training data
 training_data = torchvision.datasets.CIFAR10(root='./data', train=True, download=True, transform=transform)
-small_indices = torch.randperm(len(training_data))[:10000]
+small_indices = torch.randperm(len(training_data))[:sample_size]
 small_cifar10 = Subset(training_data, small_indices)
 
 train_loader = torch.utils.data.DataLoader(small_cifar10,
@@ -44,8 +44,9 @@ model.to(device)
 criterion = torch.nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
-for epoch in range(num_epochs):
 
+total_time = 0
+for epoch in range(num_epochs):
     start_time = time.time()  # Start timer
     for inputs, labels in train_loader:
         # Move input and label tensors to the device
@@ -66,4 +67,6 @@ for epoch in range(num_epochs):
     # Print the loss for every epoch
     end_time = time.time()  # End timer
     epoch_duration = end_time - start_time
-    print(f'Epoch {epoch+1}/{num_epochs}, Time: {epoch_duration}')   # , Loss: {loss.item():.4f}, Time: {epoch_duration}'
+    total_time += epoch_duration
+    print(f'Epoch {epoch+1}/{num_epochs}, Time: {epoch_duration}') 
+print(f'Total Time: {total_time}, Average Time:{total_time/num_epochs}')
