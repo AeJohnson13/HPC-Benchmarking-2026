@@ -1,4 +1,4 @@
-# benchmarker-i-hardly-know-her-
+# HPC Benchmarking Code-
 Code for my benchmarking project
 
 run pytorch dockerfile as bash terminal 
