@@ -14,6 +14,12 @@ batch_size = 32
 learning_rate = 0.001
 sample_size = 20000
 
+
+print(f'is cuda available {torch.cuda.is_available()}')
+print(f'cuda version: {torch.version.cuda}')
+print(f'number of gpus: {torch.cuda.device_count()}')
+
+
 #checks if cuda is available and uses it if it is
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f'Using {device} for inference')
@@ -44,6 +50,7 @@ model.to(device)
 criterion = torch.nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
+print("starting epochs")
 
 total_time = 0
 for epoch in range(num_epochs):
