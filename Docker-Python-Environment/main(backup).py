@@ -8,10 +8,6 @@ from torchvision.models import ResNet50_Weights
 from torch.utils.data import Subset
 import time
 
-from torch.utils.tensorboard import SummaryWriter
-from datetime import datetime
-
-
 # set params
 num_epochs = 10 
 batch_size = 32
@@ -26,17 +22,15 @@ print(f'number of gpus: {torch.cuda.device_count()}')
 
 #checks if cuda is available and uses it if it is
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f'Using {device} for training')
+print(f'Using {device} for inference')
 
 
 # Initialize transformations for data augmentation
-transform = transforms.Compose([
     transforms.RandomHorizontalFlip(),
-    transforms.Resize(256),
-    transforms.RandomCrop(224),
+    transforms.Resize(224),
     transforms.ToTensor(),
-    transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                         std =[0.229, 0.224, 0.225])
+    transforms.Normalize([0.4914, 0.4822, 0.4465],
+                         [0.2470, 0.2435, 0.2616]),
 ])
 
 # pull training data
@@ -50,7 +44,6 @@ train_loader = torch.utils.data.DataLoader(small_cifar10,
                                          num_workers=2)
 
 model = torchvision.models.resnet50(weights=ResNet50_Weights.IMAGENET1K_V2)
-model.fc = torch.nn.Linear(model.fc.in_features, 10)
 model.to(device)
 
 criterion = torch.nn.CrossEntropyLoss()
@@ -58,14 +51,10 @@ optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
 print("starting epochs")
 
-def train_epoch(epoch_index, tb_writer):
-
-    running_loss = 0.
-    last_loss = 0.
-    
-    for i, data in enumerate(train_loader):
-        # Every data instance is an input + label pair
-        inputs, labels = data
+total_time = 0
+for epoch in range(num_epochs):
+    start_time = time.time()  # Start timer
+    for inputs, labels in train_loader:
         # Move input and label tensors to the device
         inputs = inputs.to(device)
         labels = labels.to(device)
@@ -83,27 +72,9 @@ def train_epoch(epoch_index, tb_writer):
         #Adjust learning weights
         optimizer.step()
 
-
-        running_loss += loss.item()
-        if i % 1000 == 999:
-            last_loss = running_loss / 1000 # loss per batch
-            print('  batch {} loss: {}'.format(i + 1, last_loss))
-            tb_x = epoch_index * len(train_loader) + i + 1
-            tb_writer.add_scalar('Loss/train', last_loss, tb_x)
-            running_loss = 0.
-    return last_loss
-    print("finished epoch")
-
-
-timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-writer = SummaryWriter('runs/cifar10_trainer_{}'.format(timestamp))
-epoch_number = 0
-
-for epoch in range(num_epochs):
-    model.train(True)
-    start = time.time()
-    avg_loss = train_epoch(epoch, writer)
-    print(f"Epoch {epoch} time: {time.time() - start:.2f}s")
-
-
-
+    # Print the loss for every epoch
+    end_time = time.time()  # End timer
+    epoch_duration = end_time - start_time
+    total_time += epoch_duration
+    print(f'Epoch {epoch+1}/{num_epochs}, Time: {epoch_duration}') 
+print(f'Total Time: {total_time}, Average Time:{total_time/num_epochs}')
