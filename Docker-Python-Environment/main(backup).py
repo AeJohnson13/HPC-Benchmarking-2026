@@ -26,6 +26,8 @@ print(f'Using {device} for inference')
 
 
 # Initialize transformations for data augmentation
+transform = transforms.Compose([
+    transforms.RandomCrop(32, padding=4),   # small random shifts
     transforms.RandomHorizontalFlip(),
     transforms.Resize(224),
     transforms.ToTensor(),
