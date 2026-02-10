@@ -14,14 +14,17 @@ https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html?utm_source=cha
 # *******************************
 # Imports
 # *******************************
-
+import os
+import sys
+import tempfile
 import time 
     # for time.perf_counter()
 
 import torch
+import torch.distributed as dist
 import torch.nn as nn
 import torch.optim as optim
-
+import torch.multiporcessing as mp
 
 import torchvision
 import torchvision.transforms as transforms
@@ -29,6 +32,7 @@ import torchvision.transforms as transforms
 
 from torchvision.models import ResNet50_Weights
 from torch.utils.data import Subset
+from torch.nn.parallel import DistributedDataParallel as DDP
 
 
 
