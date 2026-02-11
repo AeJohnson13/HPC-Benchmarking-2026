@@ -1,0 +1,32 @@
+Filesystem                                    Size  Used Avail Use% Mounted on
+tmpfs                                         756G   16G  740G   3% /
+tmpfs                                          10M   20K   10M   1% /opt/scyld/clusterware-node/atboot
+devtmpfs                                      756G     0  756G   0% /dev
+tmpfs                                         756G     0  756G   0% /dev/shm
+tmpfs                                         756G  4.1G  752G   1% /run
+tmpfs                                         756G     0  756G   0% /sys/fs/cgroup
+ursaminor:/export/centos/local8               3.0T  938G  2.1T  31% /import/local
+ursaminor:/export/home                        5.0T  3.6T  1.5T  72% /import/home
+ursaminor:/export/centos/unsupported8         3.0T  938G  2.1T  31% /import/unsupported
+10.55.30.103@o2ib1:/lustre2                   307T  231T   77T  76% /import/c1
+ursamajor:/versity/EPSCOR/AKCASC              510T  339T  172T  67% /import/AKCASC
+ursamajor:/versity/online/ALFVEN/data         565T  484T   82T  86% /import/ALFVEN
+ursamajor:/versity/online/BERNGSEA/data       565T  484T   82T  86% /import/BERNGSEA
+ursamajor:/versity/online/DYNDOWN/data        565T  484T   82T  86% /import/DYNDOWN
+ursamajor:/versity/EPSCOR/FIREICE             510T  339T  172T  67% /import/FIREICE
+katmai:/export/geodesy                        372T  291T   81T  79% /import/GEODESY
+ursamajor:/versity/GIC/data                    48T   17M   48T   1% /import/GIC
+ursamajor:/versity/online/GOLIVE/data         565T  484T   82T  86% /import/GOLIVE
+ursamajor:/versity/online/GREENING/data       565T  484T   82T  86% /import/GREENING
+ursamajor:/versity/online/PERMFRST/data       565T  484T   82T  86% /import/PERMFRST
+ursamajor:/versity/online/SNAP                565T  484T   82T  86% /import/SNAP
+ursamajor:/versity/online/VERTMIX/data        565T  484T   82T  86% /import/VERTMIX
+beegfs_nodev                                  3.9P  521T  3.4P  14% /import/beegfs
+ursamajor:/versity/akwaters_vertmix/AKWATERS  524T  410T  115T  79% /import/AKWATERS
+ursamajor:/versity/akwaters_vertmix/VERTMIX   524T  410T  115T  79% /import/VERTMIXFS
+INFO:    underlay of /etc/localtime required more than 50 (72) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (276) bind mounts
+  File "/home/aejohnson13/HPC-Benchmarking-2026/Docker-Python-Environment/./main.py", line 12
+    print($MY_VAR)
+          ^
+SyntaxError: invalid syntax

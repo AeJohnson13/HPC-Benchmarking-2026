@@ -9,7 +9,6 @@ https://moiseevigor.github.io/software/2022/12/18/one-pager-training-resnet-on-i
 https://docs.pytorch.org/tutorials/beginner/introyt/trainingyt.html
 https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html?utm_source=chatgpt.com
 """
-
 # *******************************
 # Imports
 # *******************************
