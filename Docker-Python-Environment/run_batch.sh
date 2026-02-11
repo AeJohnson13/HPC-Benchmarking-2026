@@ -6,8 +6,8 @@
 
 
 
+export TMPDIR=/home/aejohnson13/.tmp
+export SLURM_TMPDIR=/home/aejohnson13/.tmp
 
-echo TMPDIR=$TMPDIR
-echo SLURM_TMPDIR=$SLURM_TMPDIR
 df -h
 apptainer run --nv /import/unsupported/FIREAID/containers/my-pytorch-app_1.0.sif

@@ -1,7 +1,7 @@
 # main.py
 # Alex Johnson
 # Started 2025-11-09
-# Updated 2026-02-10
+# Updated 2026-02-11
 
 """
 Based on code from:
@@ -16,8 +16,7 @@ https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html?utm_source=cha
 
 import time 
     # for time.perf_counter()
-import os
-    # for os.environ
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -39,9 +38,8 @@ NUM_EPOCHS = 10
 BATCH_SIZE = 32
 LEARNING_RATE = 0.001
 SAMPLE_SIZE = 20000
-NUM_WORKERS = 1   # check on this
+NUM_WORKERS = 4   # check on this
 DATA_DIR = './data'
-os.environ["TMPDIR"] = "~/.tmp"
 
 # *******************************
 # Hardware check

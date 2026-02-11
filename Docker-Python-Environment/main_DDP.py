@@ -1,7 +1,7 @@
 # main.py
 # Alex Johnson
 # Started 2025-11-09
-# Updated 2026-02-10
+# Updated 2026-02-11
 
 """
 Based on code from:
@@ -15,6 +15,7 @@ https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html?utm_source=cha
 # Imports
 # *******************************
 import os
+    # for os.environ
 import sys
 import tempfile
 import time 
