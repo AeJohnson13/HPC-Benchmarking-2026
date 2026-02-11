@@ -6,4 +6,8 @@
 
 
 
-apptainer run --nv /import/unsupported/FIREAID/containers/my-pytorch-app_1.0.sif
+IMAGE=/import/unsupported/FIREAID/containers/my-pytorch-app_1.0.sif
+SCRIPT="./main.py"
+
+apptainer run --nv IMAGE \
+    torchrun $SCRIPT

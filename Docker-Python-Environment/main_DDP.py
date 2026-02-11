@@ -25,7 +25,7 @@ import torch
 import torch.distributed as dist
 import torch.nn as nn
 import torch.optim as optim
-import torch.multiporcessing as mp
+import torch.multiprocessing as mp
 
 import torchvision
 import torchvision.transforms as transforms
@@ -59,6 +59,12 @@ print(f'number of gpus: {torch.cuda.device_count()}')
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f'Using {device} for training')
 
+
+# *******************************
+# setup for ddp
+# *******************************
+def ddp_setup():
+     dist.init_process_group(backend="nccl")
 
 # *******************************
 # Data Transform
@@ -99,7 +105,7 @@ training_loader = torch.utils.data.DataLoader(
 # *******************************
 model = torchvision.models.resnet50(weights=ResNet50_Weights.IMAGENET1K_V2)
 model.fc = nn.Linear(model.fc.in_features, 10)
-model.to(device)
+model.to(os.environ["LOCAL_RANK"])
 
 criterion = torch.nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
@@ -142,7 +148,8 @@ def train_epoch():
 
 def main():
     print("starting epochs")
-    
+
+
     start = torch.cuda.Event(enable_timing=True)
     end = torch.cuda.Event(enable_timing=True)
 
@@ -165,6 +172,7 @@ def main():
         print(f"Epoch {epoch} time (perf_counter): {epoch_time:.3f}s")
         print(f"Epoch {epoch} time (event): {gpu_time / 1000:.3f}s")
 
+    dist.destroy_process_group()
 
 
 ## runs main function when script is called directly 

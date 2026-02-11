@@ -1,4 +1,4 @@
-# main.py
+# main_DDP.py
 # Alex Johnson
 # Started 2025-11-09
 # Updated 2026-02-11
@@ -34,6 +34,7 @@ import torchvision.transforms as transforms
 from torchvision.models import ResNet50_Weights
 from torch.utils.data import Subset
 from torch.nn.parallel import DistributedDataParallel as DDP
+from torch.utils.data.distributed import DistributedSampler
 
 
 
@@ -55,10 +56,15 @@ print(f'is cuda available {torch.cuda.is_available()}')
 print(f'cuda version: {torch.version.cuda}')
 print(f'number of gpus: {torch.cuda.device_count()}')
 
-#checks if cuda is available and uses it if it is
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f'Using {device} for training')
 
+# *******************************
+# Setup DDP
+# *******************************
+local_rank = int(os.environ["LOCAL_RANK"])
+torch.cuda.set_device(local_rank)
+device = torch.device(f"cuda:{local_rank}")
+
+dist.init_process_group(backend='nccl')
 
 # *******************************
 # Data Transform
@@ -87,10 +93,11 @@ full_training_data = torchvision.datasets.CIFAR10(
 small_indices = torch.randperm(len(full_training_data))[:SAMPLE_SIZE]
 training_data = Subset(full_training_data, small_indices)
 
+training_sampler = DistributedSampler(training_data)
 training_loader = torch.utils.data.DataLoader(
     training_data,
     batch_size=BATCH_SIZE, 
-    shuffle=True, 
+    sampler=training_sampler,
     num_workers=NUM_WORKERS
 )
 
@@ -100,6 +107,7 @@ training_loader = torch.utils.data.DataLoader(
 model = torchvision.models.resnet50(weights=ResNet50_Weights.IMAGENET1K_V2)
 model.fc = nn.Linear(model.fc.in_features, 10)
 model.to(device)
+model = DDP(model, device_ids=[local_rank])
 
 criterion = torch.nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
@@ -141,7 +149,7 @@ def train_epoch():
 
 
 def main():
-    print("starting epochs")
+    print(f"starting epochs on gpu {dist.get_rnak()}")
     
     start = torch.cuda.Event(enable_timing=True)
     end = torch.cuda.Event(enable_timing=True)
