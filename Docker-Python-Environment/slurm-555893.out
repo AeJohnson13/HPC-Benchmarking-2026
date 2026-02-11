@@ -1,0 +1,205 @@
+TMPDIR=/home/aejohnson13/.tmp
+SLURM_TMPDIR=
+Filesystem                                    Size  Used Avail Use% Mounted on
+tmpfs                                         756G   16G  740G   3% /
+tmpfs                                          10M   20K   10M   1% /opt/scyld/clusterware-node/atboot
+devtmpfs                                      756G     0  756G   0% /dev
+tmpfs                                         756G     0  756G   0% /dev/shm
+tmpfs                                         756G  4.1G  752G   1% /run
+tmpfs                                         756G     0  756G   0% /sys/fs/cgroup
+ursaminor:/export/centos/local8               3.0T  938G  2.1T  31% /import/local
+ursaminor:/export/home                        5.0T  3.6T  1.5T  72% /import/home
+ursaminor:/export/centos/unsupported8         3.0T  938G  2.1T  31% /import/unsupported
+10.55.30.103@o2ib1:/lustre2                   307T  233T   74T  76% /import/c1
+ursamajor:/versity/EPSCOR/AKCASC              510T  339T  172T  67% /import/AKCASC
+ursamajor:/versity/online/ALFVEN/data         565T  484T   82T  86% /import/ALFVEN
+ursamajor:/versity/online/BERNGSEA/data       565T  484T   82T  86% /import/BERNGSEA
+ursamajor:/versity/online/DYNDOWN/data        565T  484T   82T  86% /import/DYNDOWN
+ursamajor:/versity/EPSCOR/FIREICE             510T  339T  172T  67% /import/FIREICE
+katmai:/export/geodesy                        372T  291T   81T  79% /import/GEODESY
+ursamajor:/versity/GIC/data                    48T   17M   48T   1% /import/GIC
+ursamajor:/versity/online/GOLIVE/data         565T  484T   82T  86% /import/GOLIVE
+ursamajor:/versity/online/GREENING/data       565T  484T   82T  86% /import/GREENING
+ursamajor:/versity/online/PERMFRST/data       565T  484T   82T  86% /import/PERMFRST
+ursamajor:/versity/online/SNAP                565T  484T   82T  86% /import/SNAP
+ursamajor:/versity/online/VERTMIX/data        565T  484T   82T  86% /import/VERTMIX
+beegfs_nodev                                  3.9P  516T  3.4P  14% /import/beegfs
+ursamajor:/versity/akwaters_vertmix/AKWATERS  524T  410T  115T  79% /import/AKWATERS
+ursamajor:/versity/akwaters_vertmix/VERTMIX   524T  410T  115T  79% /import/VERTMIXFS
+INFO:    underlay of /etc/localtime required more than 50 (72) bind mounts
+INFO:    underlay of /usr/bin/nvidia-smi required more than 50 (276) bind mounts
+is cuda available True
+cuda version: 12.8
+number of gpus: 1
+Using cuda for training
+starting epochs
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
+    finalizer()
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 227, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 136, in _remove_temp_dir
+    rmtree(tempdir, onerror=onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 752, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 703, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/opt/conda/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000000803322140000003d'
+Epoch 0 time (perf_counter): 28.952s
+Epoch 0 time (event): 28.951s
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
+    finalizer()
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 227, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 136, in _remove_temp_dir
+    rmtree(tempdir, onerror=onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 752, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 703, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/opt/conda/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000000a764a64d0000003e'
+Epoch 1 time (perf_counter): 27.895s
+Epoch 1 time (event): 27.895s
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
+    finalizer()
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 227, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 136, in _remove_temp_dir
+    rmtree(tempdir, onerror=onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 752, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 703, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/opt/conda/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000000c48e2c340000003f'
+Epoch 2 time (perf_counter): 27.936s
+Epoch 2 time (event): 27.936s
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
+    finalizer()
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 227, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 136, in _remove_temp_dir
+    rmtree(tempdir, onerror=onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 752, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 703, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/opt/conda/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000000ec987c7c00000040'
+Epoch 3 time (perf_counter): 27.935s
+Epoch 3 time (event): 27.935s
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
+    finalizer()
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 227, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 136, in _remove_temp_dir
+    rmtree(tempdir, onerror=onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 752, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 703, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/opt/conda/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000010033945200000041'
+Epoch 4 time (perf_counter): 27.945s
+Epoch 4 time (event): 27.945s
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
+    finalizer()
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 227, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 136, in _remove_temp_dir
+    rmtree(tempdir, onerror=onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 752, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 703, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/opt/conda/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001295ff20000000042'
+Epoch 5 time (perf_counter): 27.928s
+Epoch 5 time (event): 27.928s
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
+    finalizer()
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 227, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 136, in _remove_temp_dir
+    rmtree(tempdir, onerror=onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 752, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 703, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/opt/conda/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000184a5420700000043'
+Epoch 6 time (perf_counter): 28.021s
+Epoch 6 time (event): 28.021s
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
+    finalizer()
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 227, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 136, in _remove_temp_dir
+    rmtree(tempdir, onerror=onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 752, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 703, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/opt/conda/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001a24ffc6300000044'
+Epoch 7 time (perf_counter): 27.876s
+Epoch 7 time (event): 27.875s
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
+    finalizer()
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 227, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 136, in _remove_temp_dir
+    rmtree(tempdir, onerror=onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 752, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 703, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/opt/conda/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001c48fe21e00000045'
+Epoch 8 time (perf_counter): 27.924s
+Epoch 8 time (event): 27.924s
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
+    finalizer()
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 227, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/multiprocessing/util.py", line 136, in _remove_temp_dir
+    rmtree(tempdir, onerror=onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 752, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/opt/conda/lib/python3.11/shutil.py", line 703, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/opt/conda/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001e8e8ee0f00000046'
+Epoch 9 time (perf_counter): 27.885s
+Epoch 9 time (event): 27.885s

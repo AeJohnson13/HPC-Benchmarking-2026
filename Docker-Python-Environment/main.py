@@ -10,14 +10,14 @@ https://docs.pytorch.org/tutorials/beginner/introyt/trainingyt.html
 https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html?utm_source=chatgpt.com
 """
 
-
 # *******************************
 # Imports
 # *******************************
 
 import time 
     # for time.perf_counter()
-
+import os
+    # for os.environ
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -39,9 +39,9 @@ NUM_EPOCHS = 10
 BATCH_SIZE = 32
 LEARNING_RATE = 0.001
 SAMPLE_SIZE = 20000
-NUM_WORKERS = 6   # check on this
+NUM_WORKERS = 1   # check on this
 DATA_DIR = './data'
-
+os.environ["TMPDIR"] = "~/.tmp"
 
 # *******************************
 # Hardware check
@@ -86,7 +86,9 @@ training_loader = torch.utils.data.DataLoader(
     training_data,
     batch_size=BATCH_SIZE, 
     shuffle=True, 
-    num_workers=NUM_WORKERS
+    num_workers=NUM_WORKERS,
+    pin_memory=True,
+    persistent_workers=False
 )
 
 # *******************************
