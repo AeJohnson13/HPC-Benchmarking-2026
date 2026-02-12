@@ -9,5 +9,5 @@ export OMP_NUM_THREADS=8
 
 python -c "from torchvision.datasets import CIFAR10; CIFAR10(root='./data', train=True, download=True)"
 
-python main.py
-#torchrun --nproc_per_node=2 main_DDP.py
+#python main.py
+torchrun --nproc_per_node=2 main_DDP.py
