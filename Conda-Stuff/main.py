@@ -37,7 +37,7 @@ NUM_EPOCHS = 10
 BATCH_SIZE = 32
 LEARNING_RATE = 0.001
 SAMPLE_SIZE = 20000
-NUM_WORKERS = 4   # check on this
+NUM_WORKERS = 1   # check on this
 DATA_DIR = './data'
 
 # *******************************
@@ -72,7 +72,7 @@ transform = transforms.Compose([
 full_training_data = torchvision.datasets.CIFAR10(
     root=DATA_DIR, 
     train=True, 
-    download=True, 
+    download=False, 
     transform=transform
 )
 

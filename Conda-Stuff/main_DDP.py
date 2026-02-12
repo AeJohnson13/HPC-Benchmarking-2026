@@ -7,9 +7,8 @@
 Based on code from:
 https://moiseevigor.github.io/software/2022/12/18/one-pager-training-resnet-on-imagenet/
 https://docs.pytorch.org/tutorials/beginner/introyt/trainingyt.html
-https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html?utm_source=chatgpt.com
+https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html
 """
-
 
 # *******************************
 # Imports
@@ -37,6 +36,10 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.utils.data.distributed import DistributedSampler
 
 
+# *******************************
+# Doing a bad thing
+# *******************************
+sys.stderr = open(os.devnull, "w") # discard errors
 
 # *******************************
 # Configuration
@@ -45,7 +48,7 @@ NUM_EPOCHS = 10
 BATCH_SIZE = 32
 LEARNING_RATE = 0.001
 SAMPLE_SIZE = 20000
-NUM_WORKERS = 6   # check on this
+NUM_WORKERS = 1   # check on this
 DATA_DIR = './data'
 
 
@@ -86,7 +89,7 @@ transform = transforms.Compose([
 full_training_data = torchvision.datasets.CIFAR10(
     root=DATA_DIR, 
     train=True, 
-    download=True, 
+    download=False, 
     transform=transform
 )
 
@@ -149,7 +152,7 @@ def train_epoch():
 
 
 def main():
-    print(f"starting epochs on gpu {dist.get_rnak()}")
+    print(f"starting epochs on gpu {dist.get_rank()}")
     
     start = torch.cuda.Event(enable_timing=True)
     end = torch.cuda.Event(enable_timing=True)
