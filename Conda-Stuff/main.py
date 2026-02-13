@@ -14,6 +14,7 @@ https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html?utm_source=cha
 # *******************************
 
 import time 
+import pandas as pd
     # for time.perf_counter()
 
 import torch
@@ -27,6 +28,7 @@ import torchvision.transforms as transforms
 
 from torchvision.models import ResNet50_Weights
 from torch.utils.data import Subset
+from datetime import datetime
 
 
 
@@ -155,10 +157,14 @@ def main():
         epoch_time = time.perf_counter() - start_time
         gpu_time = start.elapsed_time(end)
 
-        ## print times //TODO record and average
-        print(f"Epoch {epoch} time (perf_counter): {epoch_time:.3f}s")
-        print(f"Epoch {epoch} time (event): {gpu_time / 1000:.3f}s")
-
+        new_data = pd.DataFrame({"Epoch":[epoch], "epoch_time":[epoch_time], "gpu_time":[gpu_time/1000]})
+        df = pd.concat([df, new_data], ignore_index=True)
+        #print(f"Epoch {epoch} time (perf_counter): {epoch_time:.3f}s")
+        #print(f"Epoch {epoch} time (event): {gpu_time / 1000:.3f}s")
+    curr_time = datetime.now().strftime("%m%d_%H%M")
+    gpu_count = torch.cuda.device_count()
+    filename = f"gpu_{local_rank}_{curr_time}_{gpu_count}.csv"
+    df.to_csv(filename, index=False)
 
 
 ## runs main function when script is called directly 
