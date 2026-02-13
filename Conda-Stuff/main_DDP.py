@@ -49,7 +49,7 @@ NUM_EPOCHS = 10
 BATCH_SIZE = 32
 LEARNING_RATE = 0.001
 SAMPLE_SIZE = 50000
-NUM_WORKERS = 1   # check on this
+NUM_WORKERS = 4   # check on this
 DATA_DIR = './data'
 
 
@@ -185,7 +185,9 @@ def main():
         df = pd.concat([df, new_data], ignore_index=True)
         print(f"Epoch {epoch} time (perf_counter): {epoch_time:.3f}s")
         print(f"Epoch {epoch} time (event): {gpu_time / 1000:.3f}s")
-    filename = f"gpu_{local_rank}.csv"
+    curr_time = datetime.now().strftime("%m%d_%H%M")
+    gpu_count = torch.cuda.device_count()
+    filename = f"gpu_{local_rank}_{curr_time}_{gpu_count}.csv"
     df.to_csv(filename, index=False)
 
 
