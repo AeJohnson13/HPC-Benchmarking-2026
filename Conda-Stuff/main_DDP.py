@@ -34,7 +34,7 @@ from torchvision.models import ResNet50_Weights
 from torch.utils.data import Subset
 from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.utils.data.distributed import DistributedSampler
-
+from datetime import datetime
 
 # *******************************
 # Doing a bad thing
