@@ -142,6 +142,7 @@ def main():
     start = torch.cuda.Event(enable_timing=True)
     end = torch.cuda.Event(enable_timing=True)
 
+    df = pd.DataFrame()
     for epoch in range(NUM_EPOCHS):
 
         ## start both timers
