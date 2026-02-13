@@ -181,7 +181,7 @@ def main():
 
         ## print times //TODO record and average
 
-        new_data = pd.DataFrame({"Epoch":[epoch], "epoch_time":[epoch_time], "gpu_time":[gpu_time]})
+        new_data = pd.DataFrame({"Epoch":[epoch], "epoch_time":[epoch_time], "gpu_time":[gpu_time/1000]})
         df = pd.concat([df, new_data], ignore_index=True)
         print(f"Epoch {epoch} time (perf_counter): {epoch_time:.3f}s")
         print(f"Epoch {epoch} time (event): {gpu_time / 1000:.3f}s")
