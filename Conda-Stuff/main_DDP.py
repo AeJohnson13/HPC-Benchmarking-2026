@@ -35,10 +35,12 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.utils.data.distributed import DistributedSampler
 from torch.utils.tensorboard import SummaryWriter
 
+
 # *******************************
 # Doing a bad thing
 # *******************************
 sys.stderr = open(os.devnull, "w") # discard errors
+
 
 # *******************************
 # Configuration
@@ -65,6 +67,60 @@ transform = transforms.Compose([
     )
 ])
 
+
+# *******************************
+# Setup DDP
+# *******************************
+dist.init_process_group(backend='nccl')
+
+local_rank = int(os.environ["LOCAL_RANK"])
+torch.cuda.set_device(local_rank)
+
+device = torch.device(f"cuda:{local_rank}")
+
+
+# *******************************
+# Hardware check
+# *******************************
+if dist.get_rank() == 0:
+    print(f'cuda version: {torch.version.cuda}')
+    print(f'number of gpus: {torch.cuda.device_count()}')
+
+
+# *******************************
+# Dataset Setup and Dataloader
+# *******************************
+full_training_data = torchvision.datasets.CIFAR10(
+    root=DATA_DIR, 
+    train=True, 
+    download=False, 
+    transform=transform
+)
+
+
+small_indices = torch.randperm(len(full_training_data))[:SAMPLE_SIZE]
+training_data = Subset(full_training_data, small_indices)
+
+training_sampler = DistributedSampler(training_data)
+training_loader = torch.utils.data.DataLoader(
+    training_data,
+    batch_size=BATCH_SIZE, 
+    sampler=training_sampler,
+    num_workers=NUM_WORKERS
+)
+
+
+# *******************************
+# Model, loss, optimizer
+# *******************************
+model = torchvision.models.resnet50(weights=ResNet50_Weights.IMAGENET1K_V2)
+model.fc = nn.Linear(model.fc.in_features, 10)
+model.to(device)
+model = DDP(model, device_ids=[local_rank])
+
+criterion = torch.nn.CrossEntropyLoss()
+optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
+    
 
 # *******************************
 # Per Epoch Training
@@ -101,65 +157,9 @@ def train_epoch():
 
 
 def main():
-    # *******************************
-    # Setup DDP
-    # *******************************
-    dist.init_process_group(backend='nccl')
+    writer = SummaryWriter()
+    print(f"starting epochs on gpu {dist.get_rank()}") 
 
-    local_rank = int(os.environ["LOCAL_RANK"])
-    torch.cuda.set_device(local_rank)
-
-    device = torch.device(f"cuda:{local_rank}")
-
-
-    # *******************************
-    # Hardware check
-    # *******************************
-    if dist.get_rank() == 0:
-        print(f'cuda version: {torch.version.cuda}')
-        print(f'number of gpus: {torch.cuda.device_count()}')
-
-    # *******************************
-    # Dataset Setup and Dataloader
-    # *******************************
-
-    full_training_data = torchvision.datasets.CIFAR10(
-        root=DATA_DIR, 
-        train=True, 
-        download=False, 
-        transform=transform
-    )
-
-    small_indices = torch.randperm(len(full_training_data))[:SAMPLE_SIZE]
-    training_data = Subset(full_training_data, small_indices)
-
-    training_sampler = DistributedSampler(training_data)
-    training_loader = torch.utils.data.DataLoader(
-        training_data,
-        batch_size=BATCH_SIZE, 
-        sampler=training_sampler,
-        num_workers=NUM_WORKERS
-    )
-
-    # *******************************
-    # Model, loss, optimizer
-    # *******************************
-    model = torchvision.models.resnet50(weights=ResNet50_Weights.IMAGENET1K_V2)
-    model.fc = nn.Linear(model.fc.in_features, 10)
-    model.to(device)
-    model = DDP(model, device_ids=[local_rank])
-
-    criterion = torch.nn.CrossEntropyLoss()
-    optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
-    
-
-
-
-    # *******************************
-    # Start Training/Timing runs
-    # *******************************
-    print(f"starting epochs on gpu {dist.get_rank()}")
-    
     start = torch.cuda.Event(enable_timing=True)
     end = torch.cuda.Event(enable_timing=True)
 
@@ -177,7 +177,8 @@ def main():
         torch.cuda.synchronize()
         epoch_time = time.perf_counter() - start_time
         gpu_time = start.elapsed_time(end)
-
+        writer.add_scalar('epoch_time',epoch_time, epoch)
+        writer.add_scalar('gpu_time', gpu_time, epoch)
         ## print times //TODO record and average
         print(f"Epoch {epoch} time (perf_counter): {epoch_time:.3f}s")
         print(f"Epoch {epoch} time (event): {gpu_time / 1000:.3f}s")
