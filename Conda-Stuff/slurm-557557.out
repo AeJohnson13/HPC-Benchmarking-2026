@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "<string>", line 1, in <module>
-    from torchvision.datasets import CIFAR10; CIFAR10(root='./data', train=True, download=True)
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ModuleNotFoundError: No module named 'torchvision'
-/var/spool/slurm/job557557/slurm_script: line 13: torchrun: command not found
