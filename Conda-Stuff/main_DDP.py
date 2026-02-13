@@ -15,8 +15,9 @@ https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html
 # *******************************
 import os
     # for os.environ
+    # for os.devnull
 import sys
-import tempfile
+import pandas as pd
 import time 
     # for time.perf_counter()
 
@@ -33,7 +34,6 @@ from torchvision.models import ResNet50_Weights
 from torch.utils.data import Subset
 from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.utils.data.distributed import DistributedSampler
-from torch.utils.tensorboard import SummaryWriter
 
 
 # *******************************
@@ -82,7 +82,7 @@ device = torch.device(f"cuda:{local_rank}")
 # *******************************
 # Hardware check
 # *******************************
-if dist.get_rank() == 0:
+if local_rank == 0:
     print(f'cuda version: {torch.version.cuda}')
     print(f'number of gpus: {torch.cuda.device_count()}')
 
@@ -157,12 +157,12 @@ def train_epoch():
 
 
 def main():
-    writer = SummaryWriter()
     print(f"starting epochs on gpu {dist.get_rank()}") 
 
     start = torch.cuda.Event(enable_timing=True)
     end = torch.cuda.Event(enable_timing=True)
 
+    df = pd.DataFrame()
     for epoch in range(NUM_EPOCHS):
 
         ## start both timers
@@ -177,12 +177,16 @@ def main():
         torch.cuda.synchronize()
         epoch_time = time.perf_counter() - start_time
         gpu_time = start.elapsed_time(end)
-        writer.add_scalar('epoch_time',epoch_time, epoch)
-        writer.add_scalar('gpu_time', gpu_time, epoch)
+
+
         ## print times //TODO record and average
+
+        new_data = pd.DataFrame({"Epoch":[epoch], "epoch_time":[epoch_time], "gpu_time":[gpu_time]})
+        df = pd.concat([df, new_data], ignore_index=True)
         print(f"Epoch {epoch} time (perf_counter): {epoch_time:.3f}s")
         print(f"Epoch {epoch} time (event): {gpu_time / 1000:.3f}s")
-
+    filename = f"gpu_{local_rank}.csv"
+    df.to_csv(filename, index=False)
 
 
 ## runs main function when script is called directly 
