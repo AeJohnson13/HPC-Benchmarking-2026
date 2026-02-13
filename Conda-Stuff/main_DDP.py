@@ -183,8 +183,8 @@ def main():
 
         new_data = pd.DataFrame({"Epoch":[epoch], "epoch_time":[epoch_time], "gpu_time":[gpu_time/1000]})
         df = pd.concat([df, new_data], ignore_index=True)
-        print(f"Epoch {epoch} time (perf_counter): {epoch_time:.3f}s")
-        print(f"Epoch {epoch} time (event): {gpu_time / 1000:.3f}s")
+        #print(f"Epoch {epoch} time (perf_counter): {epoch_time:.3f}s")
+        #print(f"Epoch {epoch} time (event): {gpu_time / 1000:.3f}s")
     curr_time = datetime.now().strftime("%m%d_%H%M")
     gpu_count = torch.cuda.device_count()
     filename = f"gpu_{local_rank}_{curr_time}_{gpu_count}.csv"
