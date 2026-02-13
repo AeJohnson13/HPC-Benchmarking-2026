@@ -21,7 +21,7 @@ Traceback (most recent call last):
     onerror(os.unlink, fullname, sys.exc_info())
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
     os.unlink(entry.name, dir_fd=topfd)
-OSError: [Errno 16] Device or resource busy: '.nfs00000002a42926fa000009f7'
+OSError: [Errno 16] Device or resource busy: '.nfs00000002853e587800000a0b'
 Traceback (most recent call last):
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
     finalizer()
@@ -36,7 +36,7 @@ Traceback (most recent call last):
     onerror(os.unlink, fullname, sys.exc_info())
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
     os.unlink(entry.name, dir_fd=topfd)
-OSError: [Errno 16] Device or resource busy: '.nfs00000002e51de42a000009f8'
+OSError: [Errno 16] Device or resource busy: '.nfs00000002a42926fb00000a0c'
 Traceback (most recent call last):
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
     finalizer()
@@ -51,7 +51,7 @@ Traceback (most recent call last):
     onerror(os.unlink, fullname, sys.exc_info())
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
     os.unlink(entry.name, dir_fd=topfd)
-OSError: [Errno 16] Device or resource busy: '.nfs0000000301c3dc1f000009f9'
+OSError: [Errno 16] Device or resource busy: '.nfs00000002e51de42b00000a0d'
 Traceback (most recent call last):
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
     finalizer()
@@ -66,7 +66,7 @@ Traceback (most recent call last):
     onerror(os.unlink, fullname, sys.exc_info())
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
     os.unlink(entry.name, dir_fd=topfd)
-OSError: [Errno 16] Device or resource busy: '.nfs000000036513bc03000009fa'
+OSError: [Errno 16] Device or resource busy: '.nfs0000000301c3dc1f00000a0e'
 Traceback (most recent call last):
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
     finalizer()
@@ -81,7 +81,7 @@ Traceback (most recent call last):
     onerror(os.unlink, fullname, sys.exc_info())
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
     os.unlink(entry.name, dir_fd=topfd)
-OSError: [Errno 16] Device or resource busy: '.nfs0000000384347c02000009fb'
+OSError: [Errno 16] Device or resource busy: '.nfs0000000325b01c5a00000a0f'
 Traceback (most recent call last):
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
     finalizer()
@@ -96,7 +96,7 @@ Traceback (most recent call last):
     onerror(os.unlink, fullname, sys.exc_info())
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
     os.unlink(entry.name, dir_fd=topfd)
-OSError: [Errno 16] Device or resource busy: '.nfs00000003a4ae0944000009fc'
+OSError: [Errno 16] Device or resource busy: '.nfs0000000341b3880b00000a10'
 Traceback (most recent call last):
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
     finalizer()
@@ -111,7 +111,7 @@ Traceback (most recent call last):
     onerror(os.unlink, fullname, sys.exc_info())
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
     os.unlink(entry.name, dir_fd=topfd)
-OSError: [Errno 16] Device or resource busy: '.nfs00000003c62ef63e000009fd'
+OSError: [Errno 16] Device or resource busy: '.nfs000000036513bc0400000a11'
 Traceback (most recent call last):
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
     finalizer()
@@ -126,7 +126,7 @@ Traceback (most recent call last):
     onerror(os.unlink, fullname, sys.exc_info())
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
     os.unlink(entry.name, dir_fd=topfd)
-OSError: [Errno 16] Device or resource busy: '.nfs00000003e78cfa01000009fe'
+OSError: [Errno 16] Device or resource busy: '.nfs0000000384347c0300000a12'
 Traceback (most recent call last):
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
     finalizer()
@@ -141,7 +141,7 @@ Traceback (most recent call last):
     onerror(os.unlink, fullname, sys.exc_info())
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
     os.unlink(entry.name, dir_fd=topfd)
-OSError: [Errno 16] Device or resource busy: '.nfs00000000057c220b000009ff'
+OSError: [Errno 16] Device or resource busy: '.nfs00000003a4ae094500000a13'
 Traceback (most recent call last):
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/multiprocessing/util.py", line 303, in _run_finalizers
     finalizer()
@@ -156,4 +156,4 @@ Traceback (most recent call last):
     onerror(os.unlink, fullname, sys.exc_info())
   File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/shutil.py", line 701, in _rmtree_safe_fd
     os.unlink(entry.name, dir_fd=topfd)
-OSError: [Errno 16] Device or resource busy: '.nfs00000000247e480600000a00'
+OSError: [Errno 16] Device or resource busy: '.nfs00000003c38d282f00000a14'
