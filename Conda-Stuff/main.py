@@ -38,8 +38,8 @@ from datetime import datetime
 NUM_EPOCHS = 10 
 BATCH_SIZE = 32
 LEARNING_RATE = 0.001
-SAMPLE_SIZE = 20000
-NUM_WORKERS = 1   # check on this
+SAMPLE_SIZE = 50000
+NUM_WORKERS = 4   # check on this
 DATA_DIR = './data'
 
 # *******************************
