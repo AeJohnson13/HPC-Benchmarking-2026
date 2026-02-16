@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # main_DDP.py
 # Alex Johnson
 # Started 2025-11-09
@@ -20,6 +21,9 @@ import sys
 import pandas as pd
 import time 
     # for time.perf_counter()
+import warnings
+warnings.filterwarnings("ignore", catergory=DeprecationWarning)
+
 
 import torch
 import torch.distributed as dist
@@ -39,7 +43,7 @@ from datetime import datetime
 # *******************************
 # Doing a bad thing
 # *******************************
-sys.stderr = open(os.devnull, "w") # discard errors
+#sys.stderr = open(os.devnull, "w") # discard errors
 
 
 # *******************************
@@ -77,6 +81,10 @@ local_rank = int(os.environ["LOCAL_RANK"])
 torch.cuda.set_device(local_rank)
 
 device = torch.device(f"cuda:{local_rank}")
+
+
+def cleanup():
+    dist.destroy_process_group()
 
 
 # *******************************
@@ -185,8 +193,12 @@ def main():
         df = pd.concat([df, new_data], ignore_index=True)
         #print(f"Epoch {epoch} time (perf_counter): {epoch_time:.3f}s")
         #print(f"Epoch {epoch} time (event): {gpu_time / 1000:.3f}s")
+
+    cleanup()
     curr_time = datetime.now().strftime("%m%d_%H%M")
     gpu_count = torch.cuda.device_count()
+
+
     filename = f"gpu_{local_rank}_{curr_time}_{gpu_count}.csv"
     df.to_csv(filename, index=False)
 
