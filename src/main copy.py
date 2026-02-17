@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# main_DDP.py
+# main.py
 # Alex Johnson
 # Started 2025-11-09
 # Updated 2026-02-11
@@ -8,42 +7,29 @@
 Based on code from:
 https://moiseevigor.github.io/software/2022/12/18/one-pager-training-resnet-on-imagenet/
 https://docs.pytorch.org/tutorials/beginner/introyt/trainingyt.html
-https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html
+https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html?utm_source=chatgpt.com
 """
-
 # *******************************
 # Imports
 # *******************************
-import os
-    # for os.environ
-    # for os.devnull
-import sys
-import pandas as pd
-import time 
-    # for time.perf_counter()
-import warnings
-warnings.filterwarnings("ignore", catergory=DeprecationWarning)
 
+import time 
+import pandas as pd
+    # for time.perf_counter()
 
 import torch
-import torch.distributed as dist
 import torch.nn as nn
 import torch.optim as optim
-import torch.multiprocessing as mp
+
 
 import torchvision
 import torchvision.transforms as transforms
 
+
 from torchvision.models import ResNet50_Weights
 from torch.utils.data import Subset
-from torch.nn.parallel import DistributedDataParallel as DDP
-from torch.utils.data.distributed import DistributedSampler
 from datetime import datetime
 
-# *******************************
-# Doing a bad thing
-# *******************************
-#sys.stderr = open(os.devnull, "w") # discard errors
 
 
 # *******************************
@@ -53,8 +39,19 @@ NUM_EPOCHS = 10
 BATCH_SIZE = 32
 LEARNING_RATE = 0.001
 SAMPLE_SIZE = 50000
-NUM_WORKERS = 4   # check on this
+NUM_WORKERS = 4 
 DATA_DIR = './data'
+
+# *******************************
+# Hardware check
+# *******************************
+print(f'is cuda available {torch.cuda.is_available()}')
+print(f'cuda version: {torch.version.cuda}')
+print(f'number of gpus: {torch.cuda.device_count()}')
+
+#checks if cuda is available and uses it if it is
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f'Using {device} for training')
 
 
 # *******************************
@@ -71,30 +68,6 @@ transform = transforms.Compose([
     )
 ])
 
-
-# *******************************
-# Setup DDP
-# *******************************
-dist.init_process_group(backend='nccl')
-
-local_rank = int(os.environ["LOCAL_RANK"])
-torch.cuda.set_device(local_rank)
-
-device = torch.device(f"cuda:{local_rank}")
-
-
-def cleanup():
-    dist.destroy_process_group()
-
-
-# *******************************
-# Hardware check
-# *******************************
-if local_rank == 0:
-    print(f'cuda version: {torch.version.cuda}')
-    print(f'number of gpus: {torch.cuda.device_count()}')
-
-
 # *******************************
 # Dataset Setup and Dataloader
 # *******************************
@@ -105,18 +78,17 @@ full_training_data = torchvision.datasets.CIFAR10(
     transform=transform
 )
 
-
 small_indices = torch.randperm(len(full_training_data))[:SAMPLE_SIZE]
 training_data = Subset(full_training_data, small_indices)
 
-training_sampler = DistributedSampler(training_data)
 training_loader = torch.utils.data.DataLoader(
     training_data,
     batch_size=BATCH_SIZE, 
-    sampler=training_sampler,
-    num_workers=NUM_WORKERS
+    shuffle=True, 
+    num_workers=NUM_WORKERS,
+    pin_memory=True,
+    persistent_workers=False
 )
-
 
 # *******************************
 # Model, loss, optimizer
@@ -124,11 +96,13 @@ training_loader = torch.utils.data.DataLoader(
 model = torchvision.models.resnet50(weights=ResNet50_Weights.IMAGENET1K_V2)
 model.fc = nn.Linear(model.fc.in_features, 10)
 model.to(device)
-model = DDP(model, device_ids=[local_rank])
+
+
 
 criterion = torch.nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
-    
+
+
 
 # *******************************
 # Per Epoch Training
@@ -165,8 +139,8 @@ def train_epoch():
 
 
 def main():
-    print(f"starting epochs on gpu {dist.get_rank()}") 
-
+    print("starting epochs")
+    
     start = torch.cuda.Event(enable_timing=True)
     end = torch.cuda.Event(enable_timing=True)
 
@@ -186,18 +160,13 @@ def main():
         epoch_time = time.perf_counter() - start_time
         gpu_time = start.elapsed_time(end)
 
-
         new_data = pd.DataFrame({"Epoch":[epoch], "epoch_time":[epoch_time], "gpu_time":[gpu_time/1000]})
         df = pd.concat([df, new_data], ignore_index=True)
         #print(f"Epoch {epoch} time (perf_counter): {epoch_time:.3f}s")
         #print(f"Epoch {epoch} time (event): {gpu_time / 1000:.3f}s")
-
-    cleanup()
     curr_time = datetime.now().strftime("%m%d_%H%M")
     gpu_count = torch.cuda.device_count()
-
-
-    filename = f"gpu_{local_rank}_{curr_time}_{gpu_count}.csv"
+    filename = f"gpu_0_{curr_time}_{gpu_count}.csv"
     df.to_csv(filename, index=False)
 
 
