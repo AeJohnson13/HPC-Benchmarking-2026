@@ -7,7 +7,12 @@
 
 export OMP_NUM_THREADS=8
 
+source /home/${USER}/.bashrc
+source activate pytorch_env
+
+
 #python -c "from torchvision.datasets import CIFAR10; CIFAR10(root='./data', train=True, download=True)"
 
-#python main.py
-torchrun --nproc_per_node=8 main_DDP.py
+
+
+torchrun --nproc_per_node=8 src/main.py
