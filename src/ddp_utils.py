@@ -17,5 +17,5 @@ def setup_ddp():
     return device, local_rank
 
 
-def cleanup():
+def cleanup_ddp():
     dist.destroy_process_group()
