@@ -21,16 +21,9 @@ import torch
 from config import NUM_EPOCHS
 from ddp_utils import setup_ddp, cleanup_ddp
 from data import get_dataloader
-from models import build_model
+from model import build_model
 from train import train_epoch, get_optimizer, get_loss_fn
 
-
-# *******************************
-# Hardware check
-# *******************************
-print(f'is cuda available {torch.cuda.is_available()}')
-print(f'cuda version: {torch.version.cuda}')
-print(f'number of gpus: {torch.cuda.device_count()}')
 
 # *******************************
 # Main 
@@ -39,7 +32,7 @@ print(f'number of gpus: {torch.cuda.device_count()}')
 
 def main():
     device, local_rank = setup_ddp()
-    loader = get_dataloader(device)
+    loader = get_dataloader()
     model = build_model(device, local_rank)
     optimizer = get_optimizer(model)
     loss_fn = get_loss_fn()
