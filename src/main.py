@@ -72,7 +72,7 @@ def main():
     curr_time = datetime.now().strftime("%m%d_%H%M")
     gpu_count = torch.cuda.device_count()
 
-    filename = f"gpu_0_{curr_time}_{gpu_count}.csv"
+    filename = f"gpu_{local_rank}_{curr_time}_{gpu_count}.csv"
     df.to_csv(filename, index=False)
 
 
