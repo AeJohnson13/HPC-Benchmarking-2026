@@ -1,0 +1,47 @@
+#!/bin/bash
+# gpubenchmark.sh
+# Alex Johnson
+# Started 2026-02-18
+# Updated 2026-02-18
+
+nodes='1'
+gpus='2'
+model='DEFAULT'
+dataset='DEFAULT'
+
+
+while getopts 'n:g:m:d:' flag; do
+	case "${flag}" in
+		n) 
+			nodes="${OPTARG}"
+			echo "number of nodes specified $nodes"
+		;;
+		
+		g)
+			gpus="${OPTARG}"
+		       	echo "number of gpus per node specifed $gpus" 
+		;;
+		
+		m)			
+			#model="${OPTARG}"
+		       	#echo "model specified $model"  
+			echo "not implemented, running with resnet-50"
+		;;
+		
+		d)
+			#dataset="${OPTARG}"
+		       	#echo "dataset specified $dataset" 
+			echo "not implemented, running with cifar-10"
+		;;
+
+	esac
+done
+
+tasks=$((nodes * gpus))
+
+sbatch  \
+	--nodes=$nodes \
+	--gpus-per-node=$gpus \
+	--ntasks=$tasks \
+	--export=GPUS=$gpus \
+	run_batch.slurm
