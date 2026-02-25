@@ -31,6 +31,11 @@ def get_dataloader():
     download=False, 
     transform=transform
     )
+    
+#    full_training_data = torchvision.datasets.ImageFolder(
+#            root="/import/beegfs/FIREAID/aejohnson13/img-net/train_blurred/",
+#            transform=transform)
+
     small_indices = torch.randperm(len(full_training_data))[:SAMPLE_SIZE]
     training_data = Subset(full_training_data, small_indices)
 

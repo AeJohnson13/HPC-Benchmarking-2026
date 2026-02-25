@@ -9,7 +9,6 @@ gpus='2'
 model='DEFAULT'
 dataset='DEFAULT'
 
-
 while getopts 'n:g:m:d:' flag; do
 	case "${flag}" in
 		n) 
@@ -39,9 +38,16 @@ done
 
 tasks=$((nodes * gpus))
 
-sbatch  \
+slurm_output=$(sbatch  \
 	--nodes=$nodes \
 	--gpus-per-node=$gpus \
 	--ntasks=$tasks \
 	--export=GPUS=$gpus \
-	run_batch.slurm
+	run_batch.slurm)
+
+re='([0-9]+)'
+
+if [[ $slurm_output =~ $re ]]; then 
+	job_id=${BASH_REMATCH[1]}
+	echo "running job: $job_id" 
+fi
