@@ -14,7 +14,7 @@ from config import BATCH_SIZE, DATA_DIR, NUM_WORKERS, SAMPLE_SIZE
 
 
 
-def get_dataloader(rank):
+def get_dataloader(use_ddp):
     transform = transforms.Compose([
     transforms.RandomHorizontalFlip(),
     transforms.Resize(256),
@@ -33,23 +33,31 @@ def get_dataloader(rank):
 #    transform=transform
 #    )
     
-    if rank == 0: 
-        full_training_data = torchvision.datasets.ImageNet(
-            root="/import/beegfs/FIREAID/aejohnson13/img-net-2012/", 
-            split="train", 
-            transform=transform
-        )
-    dist.barrier()
+   
+    full_training_data = torchvision.datasets.ImageNet(
+        root="/import/beegfs/FIREAID/aejohnson13/img-net-2012/", 
+        split="train", 
+        transform=transform
+    )
 
     small_indices = torch.randperm(len(full_training_data))[:SAMPLE_SIZE]
     training_data = Subset(full_training_data, small_indices)
 
-    training_sampler = DistributedSampler(training_data)
-    training_loader = torch.utils.data.DataLoader(
+    if use_ddp == True:
+        training_sampler = DistributedSampler(training_data)
+        training_loader = torch.utils.data.DataLoader(
         training_data,
         batch_size=BATCH_SIZE, 
         sampler=training_sampler,
         num_workers=NUM_WORKERS
-    )
-    return training_loader
+        )
+        return training_loader
+    else:
+        training_loader = torch.utils.data.DataLoader(
+        training_data,
+        batch_size=BATCH_SIZE, 
+        num_workers=NUM_WORKERS
+        ) 
+        return training_loader
+
     

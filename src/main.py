@@ -36,7 +36,6 @@ def main():
         print("setting up ddp")
         device, local_rank = setup_ddp()
         use_ddp = True 
-    else 
         
     print("loading data")
     loader = get_dataloader(use_ddp)
