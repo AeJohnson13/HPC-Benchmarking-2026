@@ -31,8 +31,11 @@ from train import train_epoch, get_optimizer, get_loss_fn
 
 
 def main():
+    print("setting up ddp")
     device, local_rank = setup_ddp()
+    print("loading data")
     loader = get_dataloader()
+    print("building model")
     model = build_model(device, local_rank)
     optimizer = get_optimizer(model)
     loss_fn = get_loss_fn()
