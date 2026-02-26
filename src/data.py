@@ -7,13 +7,14 @@
 import torch
 import torchvision
 import torchvision.transforms as transforms
+import torch.distributed as dist
 from torch.utils.data import Subset
 from torch.utils.data.distributed import DistributedSampler
 from config import BATCH_SIZE, DATA_DIR, NUM_WORKERS, SAMPLE_SIZE
 
 
 
-def get_dataloader():
+def get_dataloader(rank):
     transform = transforms.Compose([
     transforms.RandomHorizontalFlip(),
     transforms.Resize(256),
@@ -32,11 +33,13 @@ def get_dataloader():
 #    transform=transform
 #    )
     
-    full_training_data = torchvision.datasets.ImageNet(
-    root="/import/beegfs/FIREAID/aejohnson13/img-net-2012/", 
-    split="train", 
-    transform=transform
-    )
+    if rank == 0: 
+        full_training_data = torchvision.datasets.ImageNet(
+            root="/import/beegfs/FIREAID/aejohnson13/img-net-2012/", 
+            split="train", 
+            transform=transform
+        )
+    dist.barrier()
 
     small_indices = torch.randperm(len(full_training_data))[:SAMPLE_SIZE]
     training_data = Subset(full_training_data, small_indices)

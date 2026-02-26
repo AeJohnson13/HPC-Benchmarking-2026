@@ -29,16 +29,21 @@ from train import train_epoch, get_optimizer, get_loss_fn
 # Main 
 # *******************************
 
-
 def main():
-    print("setting up ddp")
-    device, local_rank = setup_ddp()
+    use_ddp = False
+    local_rank = 0
+    if torch.cuda.device_count() != 1:
+        print("setting up ddp")
+        device, local_rank = setup_ddp()
+        use_ddp = True 
+    else 
+        
     print("loading data")
-    loader = get_dataloader()
+    loader = get_dataloader(use_ddp)
     print("building model")
-    model = build_model(device, local_rank)
-    optimizer = get_optimizer(model)
-    loss_fn = get_loss_fn()
+    model = build_model(device, local_rank, use_ddp)
+    optimizer = get_optimizer(model, use_ddp)
+    loss_fn = get_loss_fn(use_ddp)
 
     if local_rank == 0:
         print(f'is cuda available {torch.cuda.is_available()}')
