@@ -24,6 +24,7 @@ def train_epoch(model, optimizer, loss_fn, loader, device):
         # Every data instance is an input + label pair
         inputs, labels = data
         # Move input and label tensors to the device
+        print(inputs.shape)
         inputs = inputs.to(device)
         labels = labels.to(device)
 
