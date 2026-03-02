@@ -16,9 +16,6 @@ def get_loss_fn():
     return torch.nn.CrossEntropyLoss()
 
 
-
-
-
 def train_epoch(model, optimizer, loss_fn, loader, device):
     
     model.train(True)

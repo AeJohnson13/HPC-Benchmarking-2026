@@ -32,17 +32,18 @@ from train import train_epoch, get_optimizer, get_loss_fn
 def main():
     use_ddp = False
     local_rank = 0
+    
     if torch.cuda.device_count() != 1:
         print("setting up ddp")
         device, local_rank = setup_ddp()
         use_ddp = True 
-        
-    print("loading data")
+    else:
+        device = torch.device("cuda")
+
     loader = get_dataloader(use_ddp)
-    print("building model")
     model = build_model(device, local_rank, use_ddp)
-    optimizer = get_optimizer(model, use_ddp)
-    loss_fn = get_loss_fn(use_ddp)
+    optimizer = get_optimizer(model)
+    loss_fn = get_loss_fn()
 
     if local_rank == 0:
         print(f'is cuda available {torch.cuda.is_available()}')
@@ -75,7 +76,10 @@ def main():
         new_data = pd.DataFrame({"Epoch":[epoch], "epoch_time":[epoch_time], "gpu_time":[gpu_time/1000]})
         df = pd.concat([df, new_data], ignore_index=True)
         
-    cleanup_ddp()
+    if use_ddp == True : 
+        cleanup_ddp()
+
+
     curr_time = datetime.now().strftime("%m%d_%H%M")
     gpu_count = torch.cuda.device_count()
 
