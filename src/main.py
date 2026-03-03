@@ -95,6 +95,8 @@ def main():
         df = pd.DataFrame(output)
         df.to_csv(filename, index=False)
 
+        print(f"done training, output saved to {filename}")
+
 
 ## runs main function when script is called directly 
 if __name__ == "__main__":
