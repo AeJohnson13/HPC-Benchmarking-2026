@@ -23,5 +23,5 @@ cleanup() {
 
 trap cleanup SIGINT EXIT
 
-torchrun --nproc_per_node=$GPUS src/main.py
+torchrun --nproc_per_node=$GPUS src/main.py --job_id $SLURM_JOB_ID
 
