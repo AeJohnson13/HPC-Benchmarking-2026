@@ -41,7 +41,6 @@ def main():
     global_rank = 0
     
     if "RANK" in os.environ:
-        print("setting up ddp")
         device, local_rank, global_rank = setup_ddp()
         use_ddp = True 
     else:
@@ -57,6 +56,7 @@ def main():
         print(f'is cuda available {torch.cuda.is_available()}')
         print(f'cuda version: {torch.version.cuda}')
         print(f'number of gpus: {torch.cuda.device_count()}')
+        gpu_count = dist.get_world_size() if use_ddp else 1
 
         output = []
 
@@ -89,7 +89,7 @@ def main():
         cleanup_ddp()
 
     if global_rank == 0:
-        gpu_count = dist.get_world_size() if use_ddp else 1
+       
         filename = f"gpu_{gpu_count}_{args.job_id}.csv"
 
         df = pd.DataFrame(output)
