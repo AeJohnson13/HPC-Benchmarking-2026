@@ -20,6 +20,8 @@ def train_epoch(model, optimizer, loss_fn, loader, device):
     
     model.train(True)
     
+    total_loss = 0 
+    total_samples = 0 
     for i, data in enumerate(loader):
         # Every data instance is an input + label pair
         inputs, labels = data
@@ -39,3 +41,11 @@ def train_epoch(model, optimizer, loss_fn, loader, device):
 
         #Adjust learning weights
         optimizer.step()
+
+        batch_size = inputs.size(0)
+
+        total_loss += loss.item() * batch_size
+        total_samples += batch_size
+    return total_loss, total_samples
+        
+

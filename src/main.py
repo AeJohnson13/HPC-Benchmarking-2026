@@ -73,7 +73,7 @@ def main():
             start_time = time.perf_counter()
 
         ## run training loop
-        train_epoch(model, optimizer, loss_fn, loader, device)
+        epoch_loss, num_samples = train_epoch(model, optimizer, loss_fn, loader, device)
 
         ## end timers and compute elapsed
         torch.cuda.synchronize()
@@ -83,7 +83,17 @@ def main():
 
         if global_rank == 0:
             epoch_time = time.perf_counter() - start_time
-            output.append({"Epoch":[epoch], "epoch_time":[epoch_time]})
+
+        if use_ddp:
+            tensor = torch.tensor([epoch_loss, num_samples], device=device)
+            dist.all_reduce(tensor, op=dist.ReduceOp.SUM)
+
+            epoch_loss = tensor[0].item()
+            num_samples = tensor[1].item()
+        
+        epoch_loss /= num_samples
+        if global_rank == 0:   
+            output.append({"Epoch":[epoch], "epoch_time":[epoch_time], " loss":[epoch_loss]})
         
     if use_ddp == True : 
         cleanup_ddp()
