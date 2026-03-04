@@ -61,8 +61,10 @@ def main():
         output = []
 
 
-    for epoch in range(NUM_EPOCHS):
+    #for epoch in range(NUM_EPOCHS):
 
+    epoch_loss = 999_999_999
+    while epoch_loss > 0.2:
         ## start both timers
         if use_ddp:
             dist.barrier()
