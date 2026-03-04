@@ -64,6 +64,7 @@ def main():
     #for epoch in range(NUM_EPOCHS):
 
     epoch_loss = 999_999_999
+    epoch = 0
     while epoch_loss > 0.2:
         ## start both timers
         if use_ddp:
@@ -98,6 +99,8 @@ def main():
             print(f"Loss: {epoch_loss}")
             output.append({"Epoch":[epoch], "epoch_time":[epoch_time], " loss":[epoch_loss]})
         
+        epoch+=1
+
     if use_ddp == True : 
         cleanup_ddp()
 
@@ -109,7 +112,7 @@ def main():
         df.to_csv(filename, index=False)
 
         print(f"done training, output saved to {filename}")
-
+    
 
 ## runs main function when script is called directly 
 if __name__ == "__main__":
