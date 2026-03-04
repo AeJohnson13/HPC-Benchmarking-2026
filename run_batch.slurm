@@ -3,8 +3,14 @@
 
 export OMP_NUM_THREADS=8 
 
+export MASTER_ADDR=$(hostname -s)
+export MASTER_PORT=12345
+
+export NODE_RANK=$SLURM_NODEID
+
+
 source /home/${USER}/.bashrc
-source activate pytorch_env
+conda activate pytorch_env
 
 #RESULT_DIR="./results/job_$SLURM_JOB_ID"
 
@@ -23,5 +29,9 @@ cleanup() {
 
 trap cleanup SIGINT EXIT
 
-torchrun --nproc_per_node=$GPUS src/main.py --job_id $SLURM_JOB_ID
+torchrun \
+	--nnodes=$SLURM_JOB_NUM_NODES \
+	--nproc_per_node=$SLURM_GPUS_ON_NODE \
+	--node_rank=$NODE_RANK \
+	src/main.py --job_id $SLURM_JOB_ID
 

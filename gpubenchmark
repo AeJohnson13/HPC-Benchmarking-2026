@@ -36,13 +36,13 @@ while getopts 'n:g:m:d:' flag; do
 	esac
 done
 
-tasks=$((nodes * gpus))
 
 slurm_output=$(sbatch  \
 	--nodes=$nodes \
+	--ntasks-per-node=$gpus \
 	--gpus-per-node=$gpus \
-	--ntasks=$tasks \
 	--export=GPUS=$gpus \
+	--export=NODES=$nodes \
 	run_batch.slurm)
 
 re='([0-9]+)'
