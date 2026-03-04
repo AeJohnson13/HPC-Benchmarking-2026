@@ -1,5 +1,8 @@
 #!/bin/bash
 #SBATCH --partition=l40s
+#SBATCH --nodes=$NODES
+#SBATCH --ntasks-per-node=$GPUS
+#SBATCH --gpus-per-node=$GPUS
 
 export OMP_NUM_THREADS=8 
 
@@ -30,8 +33,8 @@ cleanup() {
 trap cleanup SIGINT EXIT
 
 torchrun \
-	--nnodes=$SLURM_JOB_NUM_NODES \
-	--nproc_per_node=$SLURM_GPUS_ON_NODE \
+	--nnodes=$NODES \
+	--nproc_per_node=$GPUS \
 	--node_rank=$NODE_RANK \
 	src/main.py --job_id $SLURM_JOB_ID
 
