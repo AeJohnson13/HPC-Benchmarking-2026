@@ -92,7 +92,8 @@ def main():
             num_samples = tensor[1].item()
         
         epoch_loss /= num_samples
-        if global_rank == 0:   
+        if global_rank == 0: 
+            print(f"Loss: {epoch_loss}")
             output.append({"Epoch":[epoch], "epoch_time":[epoch_time], " loss":[epoch_loss]})
         
     if use_ddp == True : 
