@@ -36,6 +36,7 @@ args = parser.parse_args()\
 # *******************************
 
 def main():
+    print("made it to main")
     use_ddp = False
     local_rank = 0
     global_rank = 0
