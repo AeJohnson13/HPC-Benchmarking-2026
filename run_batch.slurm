@@ -3,20 +3,13 @@
 
 export OMP_NUM_THREADS=8 
 
-export MASTER_ADDR=$(hostname -s)
+export MASTER_ADDR=$(scontrol show hostname $SLURM_NODELIST | head -n 1)
 export MASTER_PORT=12345
-
 export NODE_RANK=$SLURM_NODEID
 
 
 source /home/${USER}/.bashrc
 conda activate pytorch_env
-
-#RESULT_DIR="./results/job_$SLURM_JOB_ID"
-
-#mkdir -p $RESULT_DIR
-
-#cd $RESULT_DIR
 
 ./query_gpu.sh $SLURM_JOB_ID &
 query_pid=$!
