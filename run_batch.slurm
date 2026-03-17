@@ -3,7 +3,7 @@
 
 export OMP_NUM_THREADS=8 
 
-export MASTER_ADDR=$(hostname)
+export MASTER_ADDR=$(srun --ntasks=1 hostname | head -n 1)
 export MASTER_PORT=12345
 export NODE_RANK=$SLURM_NODEID
 
@@ -22,12 +22,16 @@ cleanup() {
 
 trap cleanup SIGINT EXIT
 
-srun /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python \
-	-m torch.distributed.run \
-	--nnodes=2 \
-	--nproc_per_node=8 \
-	--node_rank=$NODE_RANK \
-	--master_addr=$MASTER_ADDR \
-	--master_port=$MASTER_PORT \
-	src/main.py --job_id $SLURM_JOB_ID
+echo "NODES: $SLURM_NNODES"
+srun hostname
+
+srun --ntasks=$SLURM_NNODES --ntasks-per-node=1 \
+/home/${USER}/miniforge3/envs/pytorch_env/bin/python \
+  -m torch.distributed.run \
+  --nnodes=$SLURM_NNODES \
+  --nproc_per_node=8 \
+  --node_rank=$NODE_RANK \
+  --master_addr=$MASTER_ADDR \
+  --master_port=$MASTER_PORT \
+  src/main.py --job_id $SLURM_JOB_ID
 
