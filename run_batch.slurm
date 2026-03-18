@@ -11,16 +11,23 @@ conda activate pytorch_env
 
 module load slurm
 
-./query_gpu.sh $SLURM_JOB_ID &
-query_pid=$!
-echo $query_pid
 
-cleanup() {
-	kill -TERM "$query_pid" 2>/dev/null
-	wait "$query_pid" 2>/dev/null
-}
+############################
+# ignore while debugging
+############################
+#./query_gpu.sh $SLURM_JOB_ID &
+#query_pid=$!
+#echo $query_pid
 
-trap cleanup SIGINT EXIT
+#cleanup() {
+#	kill -TERM "$query_pid" 2>/dev/null
+#	wait "$query_pid" 2>/dev/null
+#}
+
+#trap cleanup SIGINT EXIT
+###########################
+
+
 
 nodes=( $( scontrol show hostnames $SLURM_NODELIST ) )
 node_array=($nodes)
@@ -31,6 +38,7 @@ echo Node IP: $head_node_ip
 export LOGLEVEL=INFO
 
 GPUS=$SLURM_GPUS_ON_NODE
+
 
 srun /home/aejohnson13/miniforge3/envs/pytorch_env/bin/torchrun \
   --nnodes=$NUM_NODES \
