@@ -51,6 +51,9 @@ def get_dataloader(use_ddp):
     else:
         indices = torch.empty(SAMPLE_SIZE, dtype=torch.long)
 
+    if use_ddp:
+        dist.broadcast(indices, src=0)
+
     training_data = Subset(full_training_data, indices)
     if use_ddp == True:
         training_sampler = DistributedSampler(training_data)
