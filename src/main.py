@@ -47,11 +47,15 @@ def main():
     else:
         device = torch.device("cuda")
 
-
+    print("after ddp setup", flush=True)
     loader = get_dataloader(use_ddp)
+    print("after dataloader", flush=True)
     model = build_model(device, local_rank, use_ddp)
+    print("after model", flush=True)
     optimizer = get_optimizer(model)
+    print("after optimizer", flush=True)
     loss_fn = get_loss_fn()
+    print("after loss", flush=True)
 
     if global_rank == 0:
         print(f'is cuda available {torch.cuda.is_available()}')
