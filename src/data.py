@@ -40,23 +40,32 @@ def get_dataloader(use_ddp):
         transform=transform
     )
 
-    small_indices = torch.randperm(len(full_training_data))[:SAMPLE_SIZE]
-    training_data = Subset(full_training_data, small_indices)
 
+    if use_ddp:
+        rank = dist.get_rank()
+    else:
+        rank =0
+
+    if rank == 0:
+        indices = torch.randperm(len(full_training_data))[:SAMPLE_SIZE]
+    else:
+        indices = torch.empty(SAMPLE_SIZE, dtype=torch.long)
+
+    training_data = Subset(full_training_data, indices)
     if use_ddp == True:
         training_sampler = DistributedSampler(training_data)
         training_loader = torch.utils.data.DataLoader(
-        training_data,
-        batch_size=BATCH_SIZE, 
-        sampler=training_sampler,
-        num_workers=NUM_WORKERS
+            training_data,
+            batch_size=BATCH_SIZE, 
+            sampler=training_sampler,
+            num_workers=NUM_WORKERS
         )
         return training_loader
     else:
         training_loader = torch.utils.data.DataLoader(
-        training_data,
-        batch_size=BATCH_SIZE, 
-        num_workers=NUM_WORKERS
+            training_data,
+            batch_size=BATCH_SIZE, 
+            num_workers=NUM_WORKERS
         ) 
         return training_loader
 
