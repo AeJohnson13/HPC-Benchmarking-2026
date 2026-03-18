@@ -25,9 +25,9 @@ head_node=$(node_array[0])
 head_node_ip=$(srun --nodes=1 --ntasks=1 -w "$head_node" hostname --ip-address)
 
 echo Node IP: $head_node_ip
-export LOGLEVEL-INFO
+export LOGLEVEL=INFO
 
-srun torchrun \
+srun /home/aejohnson13/miniforge3/envs/pytorch_env/bin/torchrun \
   --nnodes=$nodes \
   --nproc_per_node=$gpus \
   --rdzv_id $RANDOM \
