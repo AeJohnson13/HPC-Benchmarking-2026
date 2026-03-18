@@ -1,10 +1,7 @@
 #!/bin/bash
 #SBATCH --partition=l40s
 
-export OMP_NUM_THREADS=8 
-
-export MASTER_ADDR=$(srun --ntasks=1 hostname | head -n 1)
-export MASTER_PORT=12345
+export OMP_NUM_THREADS=2 
 export NODE_RANK=$SLURM_NODEID
 
 
@@ -22,16 +19,33 @@ cleanup() {
 
 trap cleanup SIGINT EXIT
 
-echo "NODES: $SLURM_NNODES"
-srun hostname
+nodes=( $( scontrol show hostnames $SLURM_JOB_NODELIST ) )
+nodes_array=($nodes)
+head_node=$(node_array[0])
+head_node_ip=$(srun --nodes=1 --ntasks=1 -w "$head_node" hostname --ip-address)
 
-srun --ntasks=$SLURM_NNODES --ntasks-per-node=1 \
-/home/${USER}/miniforge3/envs/pytorch_env/bin/python \
-  -m torch.distributed.run \
-  --nnodes=$SLURM_NNODES \
-  --nproc_per_node=8 \
-  --node_rank=$NODE_RANK \
-  --master_addr=$MASTER_ADDR \
-  --master_port=$MASTER_PORT \
-  src/main.py --job_id $SLURM_JOB_ID
+echo Node IP: $head_node_ip
+export LOGLEVEL-INFO
+
+srun torchrun \
+  --nnodes=$nodes \
+  --nproc_per_node=$gpus \
+  --rdzv_id $RANDOM \
+  --rdzv_backend c10d \
+  --rdzv_endpoint $head_node_ip:29500 \
+  /home/aejohnson13/HPC-Benchmarking-2026/src/main.py \
+  --job_id $SLURM_JOB_ID
+
+
+
+
+#srun --ntasks=$SLURM_NNODES --ntasks-per-node=1 \
+#/home/${USER}/miniforge3/envs/pytorch_env/bin/python \
+#  -m torch.distributed.run \
+#  --nnodes=$SLURM_NNODES \
+#  --nproc_per_node=8 \
+#  --node_rank=$NODE_RANK \
+#  --master_addr=$MASTER_ADDR \
+#  --master_port=$MASTER_PORT \
+#  src/main.py --job_id $SLURM_JOB_ID
 
