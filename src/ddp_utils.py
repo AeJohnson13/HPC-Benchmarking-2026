@@ -10,7 +10,9 @@ import torch.distributed as dist
 
 
 def setup_ddp():
+    print(f"[DEBUG] RANK={os.environ.get('RANK')} LOCAL_RANK={os.environ.get('LOCAL_RANK')}", flush=True)
     dist.init_process_group(backend='nccl')
+    print(f"[DEBUG] init_process_group DONE for rank {os.environ.get('RANK')}", flush=True)
     local_rank = int(os.environ["LOCAL_RANK"])
     global_rank = int(os.environ["RANK"])
     torch.cuda.set_device(local_rank)

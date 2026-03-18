@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --partition=l40s
 
-export OMP_NUM_THREADS=2 
+export OMP_NUM_THREADS=1
 export NODE_RANK=$SLURM_NODEID
 
 
