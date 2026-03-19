@@ -5,6 +5,7 @@
 # Updated 2026-02-17
 
 import torch
+import random
 import torchvision
 import torchvision.transforms as transforms
 import torch.distributed as dist
@@ -34,11 +35,16 @@ def get_dataloader(use_ddp):
 #    )
     
    
-    training_data = torchvision.datasets.ImageNet(
+    full_training_data = torchvision.datasets.ImageNet(
         root="/import/beegfs/FIREAID/aejohnson13/img-net-2012/", 
         split="train", 
         transform=transform
     )
+
+    indices = random.sample(range(len(training_data)), SAMPLE_SIZE)
+    training_data = Subset(full_training_data, indices)
+
+
 
     if use_ddp == True:
         training_sampler = DistributedSampler(training_data)
