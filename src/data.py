@@ -34,27 +34,12 @@ def get_dataloader(use_ddp):
 #    )
     
    
-    full_training_data = torchvision.datasets.ImageNet(
+    training_data = torchvision.datasets.ImageNet(
         root="/import/beegfs/FIREAID/aejohnson13/img-net-2012/", 
         split="train", 
         transform=transform
     )
 
-
-    if use_ddp:
-        rank = dist.get_rank()
-    else:
-        rank =0
-
-    if rank == 0:
-        indices = torch.randperm(len(full_training_data))[:SAMPLE_SIZE]
-    else:
-        indices = torch.empty(SAMPLE_SIZE, dtype=torch.long)
-
-    if use_ddp:
-        dist.broadcast(indices, src=0)
-
-    training_data = Subset(full_training_data, indices)
     if use_ddp == True:
         training_sampler = DistributedSampler(training_data)
         training_loader = torch.utils.data.DataLoader(
