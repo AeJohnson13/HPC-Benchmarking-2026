@@ -10,4 +10,3 @@ LEARNING_RATE = 0.001
 SAMPLE_SIZE = 100000
 NUM_WORKERS = 4   # check on this
 DATA_DIR = '/home/aejohnson13/HPC-Benchmarking-2026/data'
-#DATA_DIR = './data'

@@ -16,6 +16,7 @@ def build_model(device, local_rank, use_ddp):
     # model.fc = nn.Linear(model.fc.in_features, 10)
     if use_ddp == True:
         torch.cuda.set_device(local_rank)
+        model = model.to(local_rank)
         model = DDP(model, device_ids=[local_rank],output_device=local_rank)
 
     else:
