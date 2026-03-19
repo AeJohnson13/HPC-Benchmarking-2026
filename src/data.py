@@ -41,7 +41,7 @@ def get_dataloader(use_ddp):
         transform=transform
     )
 
-    indices = random.sample(range(len(training_data)), SAMPLE_SIZE)
+    indices = random.sample(range(len(full_training_data)), SAMPLE_SIZE)
     training_data = Subset(full_training_data, indices)
 
 
