@@ -31,6 +31,9 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--job_id", type=str)
 args = parser.parse_args()\
 
+os.environ["OMP_NUM_THREADS"] = "8"
+torch.set_num_threads(8)
+
 # *******************************
 # Main 
 # *******************************
