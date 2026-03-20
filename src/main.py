@@ -83,6 +83,10 @@ def main():
         if global_rank == 0:
             start_time = time.perf_counter()
 
+        if use_ddp:
+            sampler = loader.sampler
+            sampler.set_epoch(epoch)
+
         ## run training loop
         epoch_loss, num_samples = train_epoch(model, optimizer, loss_fn, loader, device)
 
@@ -110,6 +114,7 @@ def main():
         epoch+=1
 
     if use_ddp == True : 
+        dist.barrier()
         cleanup_ddp()
 
     if global_rank == 0:
