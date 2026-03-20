@@ -1,2 +1,3 @@
+gpu_*.csv
 slurm*.out
 .DS_Store

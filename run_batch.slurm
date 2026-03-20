@@ -1,7 +1,6 @@
 #!/bin/bash
 #SBATCH --partition=l40s
 
-export OMP_NUM_THREADS=8
 export NODE_RANK=$SLURM_NODEID
 
 
@@ -47,7 +46,8 @@ srun /home/aejohnson13/miniforge3/envs/pytorch_env/bin/torchrun \
   --rdzv_backend c10d \
   --rdzv_endpoint $head_node_ip:29500 \
   /home/aejohnson13/HPC-Benchmarking-2026/src/main.py \
-  --job_id $SLURM_JOB_ID
+  --job_id $SLURM_JOB_ID \
+  --num_nodes $NUM_NODES
 
 
 

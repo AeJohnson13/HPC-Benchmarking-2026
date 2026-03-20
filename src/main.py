@@ -28,6 +28,7 @@ from model import build_model
 from train import train_epoch, get_optimizer, get_loss_fn
 
 parser = argparse.ArgumentParser()
+parser.add_argument("--num_nodes", type=str)
 parser.add_argument("--job_id", type=str)
 args = parser.parse_args()\
 
@@ -73,7 +74,7 @@ def main():
 
     epoch_loss = 999_999_999
     epoch = 0
-    while epoch_loss > 0.2:
+    while epoch_loss > 0.15:
         ## start both timers
         if use_ddp:
             dist.barrier()
@@ -114,7 +115,7 @@ def main():
 
     if global_rank == 0:
        
-        filename = f"gpu_{gpu_count}_{args.job_id}.csv"
+        filename = f"run_{args.num_nodes}_{gpu_count}_{args.job_id}.csv"
 
         df = pd.DataFrame(output)
         df.to_csv(filename, index=False)
