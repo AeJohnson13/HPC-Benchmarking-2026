@@ -2,7 +2,7 @@
 # model.py
 # Alex Johnson
 # Started 2026-02-17
-# Updated 2026-02-17
+# Updated 2026-03-18
 
 import torch
 import torch.nn as nn
