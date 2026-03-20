@@ -115,7 +115,6 @@ def main():
 
     if use_ddp == True : 
         dist.barrier()
-        cleanup_ddp()
 
     if global_rank == 0:
        
@@ -125,7 +124,9 @@ def main():
         df.to_csv(filename, index=False)
 
         print(f"done training, output saved to {filename}")
-    
+    if use_ddp == True : 
+        dist.barrier()
+        cleanup_ddp
 
 ## runs main function when script is called directly 
 if __name__ == "__main__":
