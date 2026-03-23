@@ -39,7 +39,7 @@ export LOGLEVEL=INFO
 GPUS=$SLURM_GPUS_ON_NODE
 
 
-srun /home/aejohnson13/miniforge3/envs/pytorch_env/bin/torchrun \
+srun /home/($USER)/miniforge3/envs/pytorch_env/bin/torchrun \
   --nnodes=$NUM_NODES \
   --nproc_per_node=$GPUS \
   --rdzv_id $RANDOM \

@@ -1,7 +1,7 @@
 # main.py
 # Alex Johnson
 # Started 2025-11-09
-# Updated 2026-02-11
+# Updated 2026-03-20
 
 """
 Based on code from:
@@ -84,6 +84,10 @@ def main():
         if global_rank == 0:
             start_time = time.perf_counter()
 
+        if use_ddp:
+            sampler = loader.sampler
+            sampler.set_epoch(epoch)
+
         ## run training loop
         epoch_loss, num_samples = train_epoch(model, optimizer, loss_fn, loader, device)
 
@@ -111,7 +115,7 @@ def main():
         epoch+=1
 
     if use_ddp == True : 
-        cleanup_ddp()
+        dist.barrier()
 
     if global_rank == 0:
        
@@ -121,7 +125,9 @@ def main():
         df.to_csv(filename, index=False)
 
         print(f"done training, output saved to {filename}")
-    
+    if use_ddp == True : 
+        dist.barrier()
+        cleanup_ddp
 
 ## runs main function when script is called directly 
 if __name__ == "__main__":

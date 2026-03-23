@@ -2,7 +2,7 @@
 #config.py
 # Alex Johnson
 # Started 2026-02-17
-# Updated 2026-02-17
+# Updated 2026-03-19
 
 NUM_EPOCHS = 40
 BATCH_SIZE = 64
