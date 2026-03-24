@@ -2,7 +2,7 @@
 # data.py
 # Alex Johnson
 # Started 2026-02-17
-# Updated 2026-02-17
+# Updated 2026-03-20
 
 import torch
 import random
@@ -52,7 +52,8 @@ def get_dataloader(use_ddp):
             training_data,
             batch_size=BATCH_SIZE, 
             sampler=training_sampler,
-            num_workers=NUM_WORKERS
+            num_workers=NUM_WORKERS,
+            pin_memory=True
         )
         return training_loader
     else:
