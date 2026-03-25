@@ -74,7 +74,7 @@ def main():
 
     epoch_loss = 999_999_999
     epoch = 0
-    while epoch_loss > 0.15:
+    while epoch_loss > 0.25:
         ## start both timers
         if use_ddp:
             dist.barrier()
@@ -110,7 +110,7 @@ def main():
         epoch_loss /= num_samples
         if global_rank == 0: 
             print(f"Loss: {epoch_loss}")
-            output.append({"Epoch":[epoch], "epoch_time":[epoch_time], " loss":[epoch_loss]})
+            output.append({"Epoch": epoch, "epoch_time": epoch_time, " loss": epoch_loss})
         
         epoch+=1
 

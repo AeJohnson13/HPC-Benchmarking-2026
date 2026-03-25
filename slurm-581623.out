@@ -12,28 +12,22 @@ cuda version: 12.8
 number of gpus: 1
 /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
   warnings.warn(  # warn only once
-Loss: 2.23939296875
-Loss: 1.66811765625
-Loss: 1.3478090625
-Loss: 1.0965578125
-Loss: 0.90289546875
-Loss: 0.747044765625
-Loss: 0.61183609375
-Loss: 0.5209353125
-Loss: 0.4446809375
-Loss: 0.3831137109375
-Loss: 0.34123234375
-Loss: 0.30785787109375
-Loss: 0.27459283203125
-Loss: 0.2478560546875
-Loss: 0.228743203125
-Loss: 0.21537345703125
-Loss: 0.1988128515625
-Loss: 0.1813501171875
-Loss: 0.171354140625
-Loss: 0.162486435546875
-Loss: 0.14667564453125
-done training, output saved to run_1_1_580244.csv
+Loss: 2.23937609375
+Loss: 1.67264140625
+Loss: 1.34153453125
+Loss: 1.0979509375
+Loss: 0.90610828125
+Loss: 0.74706890625
+Loss: 0.6154610546875
+Loss: 0.5190266796875
+Loss: 0.4423971875
+Loss: 0.3866546875
+Loss: 0.343203671875
+Loss: 0.30058462890625
+Loss: 0.2714703515625
+Loss: 0.2505225390625
+Loss: 0.23119724609375
+done training, output saved to run_1_1_581623.csv
 /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
   warnings.warn(  # warn only once
-[rank0]:[W323 14:47:23.707247510 ProcessGroupNCCL.cpp:1524] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+[rank0]:[W324 13:07:28.503062296 ProcessGroupNCCL.cpp:1524] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
