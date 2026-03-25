@@ -55,7 +55,7 @@ def main():
     print(gpu_count)
     node_count = args.num_nodes
     print(node_count)
-    world_size = gpu_count * node_count
+    world_size = int(gpu_count) * int(node_count)
     print(world_size)
 
 
