@@ -54,7 +54,7 @@ def main():
     gpu_count = torch.cuda.device_count() if use_ddp else 1
     node_count = args.num_nodes
     world_size = gpu_count * node_count
-
+    print(world_size)
     print("after ddp setup", flush=True)
     loader = get_dataloader(use_ddp, world_size)
     print("after dataloader", flush=True)
