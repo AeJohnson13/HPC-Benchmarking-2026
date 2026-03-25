@@ -15,7 +15,7 @@ from config import BATCH_SIZE, DATA_DIR, NUM_WORKERS, SAMPLE_SIZE
 
 
 
-def get_dataloader(use_ddp):
+def get_dataloader(use_ddp, world_size):
     transform = transforms.Compose([
     transforms.RandomHorizontalFlip(),
     transforms.Resize(256),
@@ -50,7 +50,7 @@ def get_dataloader(use_ddp):
         training_sampler = DistributedSampler(training_data)
         training_loader = torch.utils.data.DataLoader(
             training_data,
-            batch_size=BATCH_SIZE, 
+            batch_size=BATCH_SIZE*world_size, 
             sampler=training_sampler,
             num_workers=NUM_WORKERS,
             pin_memory=True
@@ -59,7 +59,7 @@ def get_dataloader(use_ddp):
     else:
         training_loader = torch.utils.data.DataLoader(
             training_data,
-            batch_size=BATCH_SIZE, 
+            batch_size=BATCH_SIZE*world_size, 
             num_workers=NUM_WORKERS
         ) 
         return training_loader

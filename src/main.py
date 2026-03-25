@@ -51,12 +51,16 @@ def main():
     else:
         device = torch.device("cuda")
 
+    gpu_count = torch.cuda.device_count() if use_ddp else 1
+    node_count = args.num_nodes()
+    world_size = gpu_count * node_count
+
     print("after ddp setup", flush=True)
-    loader = get_dataloader(use_ddp)
+    loader = get_dataloader(use_ddp, world_size)
     print("after dataloader", flush=True)
     model = build_model(device, local_rank, use_ddp)
     print("after model", flush=True)
-    optimizer = get_optimizer(model)
+    optimizer = get_optimizer(model, world_size)
     print("after optimizer", flush=True)
     loss_fn = get_loss_fn()
     print("after loss", flush=True)
@@ -65,7 +69,6 @@ def main():
         print(f'is cuda available {torch.cuda.is_available()}')
         print(f'cuda version: {torch.version.cuda}')
         print(f'number of gpus: {torch.cuda.device_count()}')
-        gpu_count = dist.get_world_size() if use_ddp else 1
 
         output = []
 
@@ -84,9 +87,9 @@ def main():
         if global_rank == 0:
             start_time = time.perf_counter()
 
-        #if use_ddp:
-        #    sampler = loader.sampler
-        #    sampler.set_epoch(epoch)
+        if use_ddp:
+            sampler = loader.sampler
+            sampler.set_epoch(epoch)
 
         ## run training loop
         epoch_loss, num_samples = train_epoch(model, optimizer, loss_fn, loader, device)
@@ -119,7 +122,7 @@ def main():
 
     if global_rank == 0:
        
-        filename = f"run_{args.num_nodes}_{gpu_count}_{args.job_id}.csv"
+        filename = f"run_{node_count}_{gpu_count}_{args.job_id}.csv"
 
         df = pd.DataFrame(output)
         df.to_csv(filename, index=False)
