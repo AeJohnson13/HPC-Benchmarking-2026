@@ -1,0 +1,191 @@
+Node IP: 10.50.58.153
+W0325 14:46:13.445000 325627 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0325 14:46:13.445000 325627 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 14:46:13.445000 325627 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0325 14:46:13.445000 325627 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 14:46:13.445000 325630 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0325 14:46:13.445000 325630 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 14:46:13.445000 325630 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0325 14:46:13.445000 325630 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 14:46:13.445000 325628 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0325 14:46:13.445000 325628 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 14:46:13.445000 325628 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0325 14:46:13.445000 325628 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 14:46:13.447000 325629 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0325 14:46:13.447000 325629 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 14:46:13.447000 325629 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0325 14:46:13.447000 325629 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+made it to main
+[DEBUG] RANK=3 LOCAL_RANK=3
+made it to main
+[DEBUG] RANK=2 LOCAL_RANK=2
+made it to main
+[DEBUG] RANK=0 LOCAL_RANK=0
+made it to main
+[DEBUG] RANK=1 LOCAL_RANK=1
+[DEBUG] init_process_group DONE for rank 0
+[DEBUG] init_process_group DONE for rank 2
+[DEBUG] init_process_group DONE for rank 3
+[DEBUG] init_process_group DONE for rank 1
+4
+1
+4
+after ddp setup
+4
+1
+4
+after ddp setup
+4
+1
+4
+after ddp setup
+4
+1
+4
+after ddp setup
+after dataloader
+after dataloader
+after dataloader
+after dataloader
+after model
+after modelafter model
+
+after optimizer
+after loss
+after model
+after optimizer
+after optimizer
+after loss
+after loss
+is cuda available True
+cuda version: 12.8
+number of gpus: 4
+after optimizer
+after loss
+/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  warnings.warn(  # warn only once
+Loss: 2.566538125
+Loss: 1.86967390625
+Loss: 1.6593065625
+Loss: 1.502985625
+Loss: 1.3976725
+Loss: 1.305101875
+Loss: 1.240308359375
+Loss: 1.160520625
+Loss: 1.1032984375
+Loss: 1.051840703125
+Loss: 0.996020859375
+Loss: 0.949885625
+Loss: 0.912093828125
+Loss: 0.874536171875
+Loss: 0.84060390625
+Loss: 0.81527984375
+Loss: 0.778280078125
+Loss: 0.76022578125
+Loss: 0.722485390625
+Loss: 0.693436796875
+Loss: 0.6761915625
+Loss: 0.663238671875
+Loss: 0.6346087890625
+Loss: 0.6118211328125
+Loss: 0.596919296875
+Loss: 0.58475
+Loss: 0.561807109375
+Loss: 0.545477421875
+Loss: 0.528135546875
+Loss: 0.5088962890625
+Loss: 0.494751640625
+Loss: 0.4890636328125
+Loss: 0.4746653515625
+Loss: 0.46605765625
+Loss: 0.4524175
+Loss: 0.4387585546875
+Loss: 0.43101296875
+Loss: 0.416427734375
+Loss: 0.4061680078125
+Loss: 0.401870546875
+Loss: 0.389072265625
+Loss: 0.3798132421875
+Loss: 0.372112265625
+Loss: 0.365647890625
+Loss: 0.357950546875
+Loss: 0.352459765625
+Loss: 0.3433253125
+Loss: 0.3350508984375
+Loss: 0.3321526953125
+Loss: 0.32093859375
+Loss: 0.32097556640625
+Loss: 0.30363525390625
+Loss: 0.30442416015625
+Loss: 0.3031894921875
+Loss: 0.301251484375
+Loss: 0.2921397265625
+Loss: 0.28412537109375
+Loss: 0.27873513671875
+Loss: 0.27385466796875
+Loss: 0.2700231640625
+Loss: 0.26225833984375
+Loss: 0.26468265625
+Loss: 0.2623827734375
+Loss: 0.25224484375
+Loss: 0.25302736328125
+Loss: 0.24727626953125
+done training, output saved to run_1_4_582735.csv
+/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  warnings.warn(  # warn only once
+[rank0]:[W325 15:40:48.955492097 ProcessGroupNCCL.cpp:1524] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 936, in main
+    run(args)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 927, in run
+    elastic_launch(
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 156, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 288, in launch_agent
+    if result.is_failed():
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_failed'
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 936, in main
+    run(args)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 927, in run
+    elastic_launch(
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 156, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 288, in launch_agent
+    if result.is_failed():
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_failed'
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 936, in main
+    run(args)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 927, in run
+    elastic_launch(
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 156, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 288, in launch_agent
+    if result.is_failed():
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_failed'
+srun: error: n153: tasks 0,2-3: Exited with exit code 1

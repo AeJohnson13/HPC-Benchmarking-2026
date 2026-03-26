@@ -1,0 +1,1258 @@
+Node IP: 10.50.58.151
+W0325 13:02:26.869000 832623 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0325 13:02:26.869000 832623 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 13:02:26.869000 832623 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0325 13:02:26.869000 832623 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 13:02:26.869000 832625 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0325 13:02:26.869000 832625 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 13:02:26.869000 832625 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0325 13:02:26.869000 832625 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 13:02:26.869000 832618 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0325 13:02:26.869000 832618 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 13:02:26.869000 832618 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0325 13:02:26.869000 832618 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 13:02:26.869000 832619 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0325 13:02:26.869000 832619 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 13:02:26.869000 832619 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0325 13:02:26.869000 832619 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 13:02:26.869000 832620 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0325 13:02:26.869000 832620 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 13:02:26.869000 832620 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0325 13:02:26.869000 832620 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 13:02:26.869000 832621 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0325 13:02:26.869000 832621 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 13:02:26.869000 832621 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0325 13:02:26.869000 832621 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 13:02:26.869000 832622 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0325 13:02:26.869000 832622 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 13:02:26.869000 832622 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0325 13:02:26.869000 832622 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 13:02:26.869000 832624 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0325 13:02:26.869000 832624 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0325 13:02:26.869000 832624 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0325 13:02:26.869000 832624 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+made it to main
+[DEBUG] RANK=5 LOCAL_RANK=5
+made it to main
+[DEBUG] RANK=1 LOCAL_RANK=1
+made it to main
+[DEBUG] RANK=7 LOCAL_RANK=7
+made it to main
+[DEBUG] RANK=4 LOCAL_RANK=4
+made it to main
+[DEBUG] RANK=6 LOCAL_RANK=6
+made it to main
+[DEBUG] RANK=3 LOCAL_RANK=3
+made it to main
+[DEBUG] RANK=0 LOCAL_RANK=0
+made it to main
+[DEBUG] RANK=2 LOCAL_RANK=2
+[DEBUG] init_process_group DONE for rank 1
+[DEBUG] init_process_group DONE for rank 4
+[DEBUG] init_process_group DONE for rank 0
+[DEBUG] init_process_group DONE for rank 6
+[DEBUG] init_process_group DONE for rank 7
+[DEBUG] init_process_group DONE for rank 2
+[DEBUG] init_process_group DONE for rank 5
+[DEBUG] init_process_group DONE for rank 3
+8
+1
+8
+after ddp setup
+8
+1
+8
+after ddp setup
+8
+1
+8
+after ddp setup
+8
+1
+8
+after ddp setup
+8
+1
+8
+after ddp setup
+8
+1
+8
+after ddp setup
+8
+1
+8
+after ddp setup
+8
+1
+8
+after ddp setup
+after dataloader
+after dataloader
+after dataloader
+after dataloader
+after dataloader
+after dataloader
+after dataloader
+after dataloader
+after model
+after model
+after model
+after model
+after optimizer
+after loss
+after optimizer
+after optimizerafter loss
+
+is cuda available True
+cuda version: 12.8
+after optimizernumber of gpus: 8
+
+after loss
+after loss
+after model
+after model
+after model
+after optimizer
+after loss
+after optimizer
+/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  warnings.warn(  # warn only once
+after loss
+after optimizer
+after loss
+after model
+after optimizer
+after loss
+Loss: 6.012433125
+Loss: 4.9318275
+Loss: 4.17316125
+Loss: 3.6440815625
+Loss: 3.2454325
+Loss: 2.9268090625
+Loss: 2.6823471875
+Loss: 2.4968078125
+Loss: 2.35556375
+Loss: 2.22114375
+Loss: 2.09450140625
+Loss: 1.99820390625
+Loss: 1.9309359375
+Loss: 1.846096875
+Loss: 1.77714515625
+Loss: 1.71705921875
+Loss: 1.66071640625
+Loss: 1.60345671875
+Loss: 1.56087296875
+Loss: 1.537748125
+Loss: 1.475248125
+Loss: 1.46078734375
+Loss: 1.40254
+Loss: 1.3752159375
+Loss: 1.34909953125
+Loss: 1.304021796875
+Loss: 1.293820859375
+Loss: 1.251175390625
+Loss: 1.234288515625
+Loss: 1.20245171875
+Loss: 1.185360859375
+Loss: 1.17007140625
+Loss: 1.145671875
+Loss: 1.116433203125
+Loss: 1.09822671875
+Loss: 1.0755303125
+Loss: 1.04987578125
+Loss: 1.03460953125
+Loss: 1.02469234375
+Loss: 0.9927921875
+Loss: 0.97937125
+Loss: 0.966371640625
+Loss: 0.95865734375
+Loss: 0.935262890625
+Loss: 0.92784515625
+Loss: 0.91854890625
+Loss: 0.89392234375
+Loss: 0.868404296875
+Loss: 0.87115203125
+Loss: 0.85852796875
+Loss: 0.84084296875
+Loss: 0.838115859375
+Loss: 0.81585515625
+Loss: 0.79598421875
+Loss: 0.795181171875
+Loss: 0.78260640625
+Loss: 0.76599640625
+Loss: 0.754125703125
+Loss: 0.740101796875
+Loss: 0.734896953125
+Loss: 0.722336171875
+Loss: 0.71446703125
+Loss: 0.712328984375
+Loss: 0.707067421875
+Loss: 0.68421328125
+Loss: 0.6752396875
+Loss: 0.67177296875
+Loss: 0.668425546875
+Loss: 0.661000859375
+Loss: 0.642289609375
+Loss: 0.63707359375
+Loss: 0.632579921875
+Loss: 0.62426109375
+Loss: 0.607962265625
+Loss: 0.61118234375
+Loss: 0.6026197265625
+Loss: 0.5944082421875
+Loss: 0.5796398046875
+Loss: 0.5823121875
+Loss: 0.567982109375
+Loss: 0.564977578125
+Loss: 0.5585240625
+Loss: 0.5562983984375
+Loss: 0.5535521875
+Loss: 0.5429146875
+Loss: 0.534286484375
+Loss: 0.5291383203125
+Loss: 0.523350859375
+Loss: 0.527219765625
+Loss: 0.512725859375
+Loss: 0.5103906640625
+Loss: 0.5092912890625
+Loss: 0.496103359375
+Loss: 0.4973133984375
+Loss: 0.482593046875
+Loss: 0.481084921875
+Loss: 0.4786790625
+Loss: 0.47293703125
+Loss: 0.4637128125
+Loss: 0.45801765625
+Loss: 0.461273984375
+Loss: 0.449435625
+Loss: 0.44861828125
+Loss: 0.448981640625
+Loss: 0.440440078125
+Loss: 0.4374907421875
+Loss: 0.4338060546875
+Loss: 0.42472171875
+Loss: 0.4234723828125
+Loss: 0.422623984375
+Loss: 0.418934375
+Loss: 0.4095686328125
+Loss: 0.4081039453125
+Loss: 0.410653125
+Loss: 0.4021721875
+Loss: 0.40562796875
+Loss: 0.391898203125
+Loss: 0.3894340625
+Loss: 0.3918519921875
+Loss: 0.3880483203125
+Loss: 0.3848593359375
+Loss: 0.37880078125
+Loss: 0.3687874609375
+Loss: 0.3736641796875
+Loss: 0.365952109375
+Loss: 0.365263515625
+Loss: 0.36282890625
+Loss: 0.362538125
+Loss: 0.3575748828125
+Loss: 0.35938703125
+Loss: 0.3494921875
+Loss: 0.3415428515625
+Loss: 0.3437955078125
+Loss: 0.3451412109375
+Loss: 0.3405480859375
+Loss: 0.344013203125
+Loss: 0.3341284375
+Loss: 0.330300078125
+Loss: 0.332926875
+Loss: 0.32860375
+Loss: 0.3192373828125
+Loss: 0.3259242578125
+Loss: 0.32116994140625
+Loss: 0.316211484375
+Loss: 0.31386046875
+Loss: 0.31619330078125
+Loss: 0.3136808984375
+Loss: 0.30778587890625
+Loss: 0.29743341796875
+Loss: 0.30812466796875
+Loss: 0.30381669921875
+Loss: 0.297125
+Loss: 0.2995678515625
+Loss: 0.29333123046875
+Loss: 0.2950969140625
+Loss: 0.2900919140625
+Loss: 0.2937681640625
+Loss: 0.288577109375
+Loss: 0.2837283203125
+Loss: 0.28044365234375
+Loss: 0.28386767578125
+Loss: 0.28454978515625
+Loss: 0.27968234375
+Loss: 0.27691671875
+Loss: 0.2742625
+Loss: 0.27212505859375
+Loss: 0.27323546875
+Loss: 0.2671623828125
+Loss: 0.2691162890625
+Loss: 0.2677475390625
+Loss: 0.2622727734375
+Loss: 0.2606091796875
+Loss: 0.26546720703125
+Loss: 0.26892521484375
+Loss: 0.26284427734375
+Loss: 0.264367109375
+Loss: 0.2581702734375
+Loss: 0.25909951171875
+Loss: 0.2542570703125
+Loss: 0.251425546875
+Loss: 0.24919138671875
+done training, output saved to run_1_8_582728.csv
+/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  warnings.warn(  # warn only once
+[rank0]:[W325 14:56:24.784975365 ProcessGroupNCCL.cpp:1524] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+[W325 14:56:32.601063537 TCPStore.cpp:138] [c10d] recvValueWithTimeout failed on SocketImpl(fd=73, addr=[n151.clstr]:49958, remote=[n151.clstr]:29500): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:697 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7fe68183cb80 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ffd531 (0x7fe6c3c44531 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5ffeb8d (0x7fe6c3c45b8d in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fff249 (0x7fe6c3c46249 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x1c6 (0x7fe6c3c414f6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::TCPStore::doGet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x33 (0x7fe6c3c43043 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x114 (0x7fe6c3c44154 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xda2fb6 (0x7fe6d3390fb6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x3cc7bd (0x7fe6d29ba7bd in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x1fd496 (0x564d0b858496 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #10: _PyObject_MakeTpCall + 0x24b (0x564d0b83484b in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #11: <unknown function> + 0x22d356 (0x564d0b888356 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #12: _PyEval_EvalFrameDefault + 0x43bb (0x564d0b8468cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #13: _PyFunction_Vectorcall + 0x165 (0x564d0b8687e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #14: _PyEval_EvalFrameDefault + 0x43bb (0x564d0b8468cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #15: _PyFunction_Vectorcall + 0x165 (0x564d0b8687e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #16: _PyEval_EvalFrameDefault + 0x43bb (0x564d0b8468cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #17: _PyFunction_Vectorcall + 0x165 (0x564d0b8687e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #18: _PyEval_EvalFrameDefault + 0x43bb (0x564d0b8468cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #19: _PyFunction_Vectorcall + 0x165 (0x564d0b8687e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #20: _PyObject_FastCallDictTstate + 0x65 (0x564d0b839595 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #21: _PyObject_Call_Prepend + 0xe7 (0x564d0b8708f7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #22: <unknown function> + 0x2e8de7 (0x564d0b943de7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #23: PyObject_Call + 0xbe (0x564d0b872ace in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #24: _PyEval_EvalFrameDefault + 0x43bb (0x564d0b8468cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #25: _PyFunction_Vectorcall + 0x165 (0x564d0b8687e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #26: _PyEval_EvalFrameDefault + 0x43bb (0x564d0b8468cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #27: <unknown function> + 0x2a4435 (0x564d0b8ff435 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #28: PyEval_EvalCode + 0x9d (0x564d0b8feb7d in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #29: <unknown function> + 0x2c164a (0x564d0b91c64a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #30: <unknown function> + 0x2bd343 (0x564d0b918343 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #31: <unknown function> + 0x2d2b80 (0x564d0b92db80 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #32: _PyRun_SimpleFileObject + 0x1ba (0x564d0b92d50a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #33: _PyRun_AnyFileObject + 0x44 (0x564d0b92d2e4 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #34: Py_RunMain + 0x271 (0x564d0b9276a1 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #35: Py_BytesMain + 0x37 (0x564d0b8eea67 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #36: __libc_start_main + 0xe5 (0x7fe6ef00cd85 in /lib64/libc.so.6)
+frame #37: <unknown function> + 0x2938d9 (0x564d0b8ee8d9 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+
+[W325 14:56:32.605189825 TCPStore.cpp:138] [c10d] recvValueWithTimeout failed on SocketImpl(fd=73, addr=[n151.clstr]:49938, remote=[n151.clstr]:29500): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:697 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7f9fc395eb80 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ffd531 (0x7fa005d66531 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5ffeb8d (0x7fa005d67b8d in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fff249 (0x7fa005d68249 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x1c6 (0x7fa005d634f6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::TCPStore::doGet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x33 (0x7fa005d65043 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x114 (0x7fa005d66154 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xda2fb6 (0x7fa0154b2fb6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x3cc7bd (0x7fa014adc7bd in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x1fd496 (0x55eb4349c496 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #10: _PyObject_MakeTpCall + 0x24b (0x55eb4347884b in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #11: <unknown function> + 0x22d356 (0x55eb434cc356 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #12: _PyEval_EvalFrameDefault + 0x43bb (0x55eb4348a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #13: _PyFunction_Vectorcall + 0x165 (0x55eb434ac7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #14: _PyEval_EvalFrameDefault + 0x43bb (0x55eb4348a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #15: _PyFunction_Vectorcall + 0x165 (0x55eb434ac7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #16: _PyEval_EvalFrameDefault + 0x43bb (0x55eb4348a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #17: _PyFunction_Vectorcall + 0x165 (0x55eb434ac7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #18: _PyEval_EvalFrameDefault + 0x43bb (0x55eb4348a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #19: _PyFunction_Vectorcall + 0x165 (0x55eb434ac7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #20: _PyObject_FastCallDictTstate + 0x65 (0x55eb4347d595 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #21: _PyObject_Call_Prepend + 0xe7 (0x55eb434b48f7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #22: <unknown function> + 0x2e8de7 (0x55eb43587de7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #23: PyObject_Call + 0xbe (0x55eb434b6ace in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #24: _PyEval_EvalFrameDefault + 0x43bb (0x55eb4348a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #25: _PyFunction_Vectorcall + 0x165 (0x55eb434ac7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #26: _PyEval_EvalFrameDefault + 0x43bb (0x55eb4348a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #27: <unknown function> + 0x2a4435 (0x55eb43543435 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #28: PyEval_EvalCode + 0x9d (0x55eb43542b7d in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #29: <unknown function> + 0x2c164a (0x55eb4356064a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #30: <unknown function> + 0x2bd343 (0x55eb4355c343 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #31: <unknown function> + 0x2d2b80 (0x55eb43571b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #32: _PyRun_SimpleFileObject + 0x1ba (0x55eb4357150a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #33: _PyRun_AnyFileObject + 0x44 (0x55eb435712e4 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #34: Py_RunMain + 0x271 (0x55eb4356b6a1 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #35: Py_BytesMain + 0x37 (0x55eb43532a67 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #36: __libc_start_main + 0xe5 (0x7fa03112ed85 in /lib64/libc.so.6)
+frame #37: <unknown function> + 0x2938d9 (0x55eb435328d9 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+
+[W325 14:56:32.610699501 TCPStore.cpp:106] [c10d] sendBytes failed on SocketImpl(fd=73, addr=[n151.clstr]:49958, remote=[n151.clstr]:29500): Broken pipe
+Exception raised from sendBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:668 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7fe68183cb80 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ffd531 (0x7fe6c3c44531 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5ffddc2 (0x7fe6c3c44dc2 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fff8ce (0x7fe6c3c468ce in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x19e (0x7fe6c3c414ce in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::TCPStore::doGet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x33 (0x7fe6c3c43043 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x114 (0x7fe6c3c44154 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xda2fb6 (0x7fe6d3390fb6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x3cc7bd (0x7fe6d29ba7bd in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x1fd496 (0x564d0b858496 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #10: _PyObject_MakeTpCall + 0x24b (0x564d0b83484b in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #11: <unknown function> + 0x22d356 (0x564d0b888356 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #12: _PyEval_EvalFrameDefault + 0x43bb (0x564d0b8468cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #13: _PyFunction_Vectorcall + 0x165 (0x564d0b8687e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #14: _PyObject_FastCallDictTstate + 0x65 (0x564d0b839595 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #15: _PyObject_Call_Prepend + 0xe7 (0x564d0b8708f7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #16: <unknown function> + 0x2e8de7 (0x564d0b943de7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #17: PyObject_Call + 0xbe (0x564d0b872ace in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #18: _PyEval_EvalFrameDefault + 0x43bb (0x564d0b8468cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #19: _PyFunction_Vectorcall + 0x165 (0x564d0b8687e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #20: _PyEval_EvalFrameDefault + 0x43bb (0x564d0b8468cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #21: <unknown function> + 0x2a4435 (0x564d0b8ff435 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #22: PyEval_EvalCode + 0x9d (0x564d0b8feb7d in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #23: <unknown function> + 0x2c164a (0x564d0b91c64a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #24: <unknown function> + 0x2bd343 (0x564d0b918343 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+[W325 14:56:32.610608601 TCPStore.cpp:138] [c10d] recvValueWithTimeout failed on SocketImpl(fd=73, addr=[n151.clstr]:49972, remote=[n151.clstr]:29500): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:697 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7f06e6cb9b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ffd531 (0x7f07290c1531 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5ffeb8d (0x7f07290c2b8d in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fff249 (0x7f07290c3249 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x1c6 (0x7f07290be4f6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::TCPStore::doGet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x33 (0x7f07290c0043 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x114 (0x7f07290c1154 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xda2fb6 (0x7f073880dfb6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x3cc7bd (0x7f0737e377bd in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x1fd496 (0x5573af18f496 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #10: _PyObject_MakeTpCall + 0x24b (0x5573af16b84b in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #11: <unknown function> + 0x22d356 (0x5573af1bf356 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #12: _PyEval_EvalFrameDefault + 0x43bb (0x5573af17d8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #13: _PyFunction_Vectorcall + 0x165 (0x5573af19f7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #14: _PyEval_EvalFrameDefault + 0x43bb (0x5573af17d8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #15: _PyFunction_Vectorcall + 0x165 (0x5573af19f7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #16: _PyEval_EvalFrameDefault + 0x43bb (0x5573af17d8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #17: _PyFunction_Vectorcall + 0x165 (0x5573af19f7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #18: _PyEval_EvalFrameDefault + 0x43bb (0x5573af17d8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #19: _PyFunction_Vectorcall + 0x165 (0x5573af19f7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #20: _PyObject_FastCallDictTstate + 0x65 (0x5573af170595 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #21: _PyObject_Call_Prepend + 0xe7 (0x5573af1a78f7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #22: <unknown function> + 0x2e8de7 (0x5573af27ade7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #23: PyObject_Call + 0xbe (0x5573af1a9ace in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #25: <unknown function> + 0x2d2b80 (0x564d0b92db80 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #26: _PyRun_SimpleFileObject + 0x1ba (0x564d0b92d50a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #27: _PyRun_AnyFileObject + 0x44 (0x564d0b92d2e4 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #28: Py_RunMain + 0x271 (0x564d0b9276a1 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #29: Py_BytesMain + 0x37 (0x564d0b8eea67 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #30: __libc_start_main + 0xe5 (0x7fe6ef00cd85 in /lib64/libc.so.6)
+frame #31: <unknown function> + 0x2938d9 (0x564d0b8ee8d9 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+
+frame #24: _PyEval_EvalFrameDefault + 0x43bb (0x5573af17d8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #25: _PyFunction_Vectorcall + 0x165 (0x5573af19f7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #26: _PyEval_EvalFrameDefault + 0x43bb (0x5573af17d8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #27: <unknown function> + 0x2a4435 (0x5573af236435 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #28: PyEval_EvalCode + 0x9d (0x5573af235b7d in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #29: <unknown function> + 0x2c164a (0x5573af25364a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #30: <unknown function> + 0x2bd343 (0x5573af24f343 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #31: <unknown function> + 0x2d2b80 (0x5573af264b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #32: _PyRun_SimpleFileObject + 0x1ba (0x5573af26450a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #33: _PyRun_AnyFileObject + 0x44 (0x5573af2642e4 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #34: Py_RunMain + 0x271 (0x5573af25e6a1 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #35: Py_BytesMain + 0x37 (0x5573af225a67 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #36: __libc_start_main + 0xe5 (0x7f0754489d85 in /lib64/libc.so.6)
+frame #37: <unknown function> + 0x2938d9 (0x5573af2258d9 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+
+W0325 14:56:32.573000 832625 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1292] The node 'n151.clstr_832625_0' has failed to shutdown the rendezvous '14398' due to an error of type RendezvousConnectionError.
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 117, in _call_store
+    return getattr(self._store, store_op)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 936, in main
+    run(args)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 927, in run
+    elastic_launch(
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 156, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 284, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 717, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 875, in _invoke_run
+    self._initialize_workers(self._worker_group)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 685, in _initialize_workers
+    self._rendezvous(worker_group)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 500, in _rendezvous
+    rdzv_info = spec.rdzv_handler.next_rendezvous()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 1170, in next_rendezvous
+    self._op_executor.run(join_op, deadline, self._get_deadline)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 648, in run
+    has_set = self._state_holder.sync()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 437, in sync
+    get_response = self._backend.get_state()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 75, in get_state
+    base64_state: bytes = self._call_store("get", self._key)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 119, in _call_store
+    raise RendezvousConnectionError(
+torch.distributed.elastic.rendezvous.api.RendezvousConnectionError: The connection to the C10d store has failed. See inner exception for details.
+[W325 14:56:32.632705107 TCPStore.cpp:106] [c10d] sendBytes failed on SocketImpl(fd=73, addr=[n151.clstr]:49938, remote=[n151.clstr]:29500): Broken pipe
+Exception raised from sendBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:668 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7f9fc395eb80 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ffd531 (0x7fa005d66531 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5ffddc2 (0x7fa005d66dc2 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fff8ce (0x7fa005d688ce in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x19e (0x7fa005d634ce in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::TCPStore::doGet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x33 (0x7fa005d65043 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x114 (0x7fa005d66154 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xda2fb6 (0x7fa0154b2fb6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x3cc7bd (0x7fa014adc7bd in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x1fd496 (0x55eb4349c496 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #10: _PyObject_MakeTpCall + 0x24b (0x55eb4347884b in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #11: <unknown function> + 0x22d356 (0x55eb434cc356 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #12: _PyEval_EvalFrameDefault + 0x43bb (0x55eb4348a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #13: _PyFunction_Vectorcall + 0x165 (0x55eb434ac7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #14: _PyObject_FastCallDictTstate + 0x65 (0x55eb4347d595 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #15: _PyObject_Call_Prepend + 0xe7 (0x55eb434b48f7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #16: <unknown function> + 0x2e8de7 (0x55eb43587de7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #17: PyObject_Call + 0xbe (0x55eb434b6ace in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #18: _PyEval_EvalFrameDefault + 0x43bb (0x55eb4348a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #19: _PyFunction_Vectorcall + 0x165 (0x55eb434ac7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #20: _PyEval_EvalFrameDefault + 0x43bb (0x55eb4348a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #21: <unknown function> + 0x2a4435 (0x55eb43543435 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #22: PyEval_EvalCode + 0x9d (0x55eb43542b7d in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #23: <unknown function> + 0x2c164a (0x55eb4356064a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #24: <unknown function> + 0x2bd343 (0x55eb4355c343 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #25: <unknown function> + 0x2d2b80 (0x55eb43571b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #26: _PyRun_SimpleFileObject + 0x1ba (0x55eb4357150a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #27: _PyRun_AnyFileObject + 0x44 (0x55eb435712e4 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #28: Py_RunMain + 0x271 (0x55eb4356b6a1 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #29: Py_BytesMain + 0x37 (0x55eb43532a67 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #30: __libc_start_main + 0xe5 (0x7fa03112ed85 in /lib64/libc.so.6)
+frame #31: <unknown function> + 0x2938d9 (0x55eb435328d9 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+
+W0325 14:56:32.582000 832622 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1292] The node 'n151.clstr_832622_0' has failed to shutdown the rendezvous '14398' due to an error of type RendezvousConnectionError.
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 117, in _call_store
+    return getattr(self._store, store_op)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 936, in main
+    run(args)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 927, in run
+    elastic_launch(
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 156, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 284, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 717, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 875, in _invoke_run
+    self._initialize_workers(self._worker_group)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 685, in _initialize_workers
+    self._rendezvous(worker_group)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 500, in _rendezvous
+[W325 14:56:32.635579555 TCPStore.cpp:106] [c10d] sendBytes failed on SocketImpl(fd=73, addr=[n151.clstr]:49972, remote=[n151.clstr]:29500): Broken pipe
+Exception raised from sendBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:668 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7f06e6cb9b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ffd531 (0x7f07290c1531 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5ffddc2 (0x7f07290c1dc2 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fff8ce (0x7f07290c38ce in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x19e (0x7f07290be4ce in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::TCPStore::doGet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x33 (0x7f07290c0043 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x114 (0x7f07290c1154 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xda2fb6 (0x7f073880dfb6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x3cc7bd (0x7f0737e377bd in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x1fd496 (0x5573af18f496 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #10: _PyObject_MakeTpCall + 0x24b (0x5573af16b84b in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #11: <unknown function> + 0x22d356 (0x5573af1bf356 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #12: _PyEval_EvalFrameDefault + 0x43bb (0x5573af17d8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #13: _PyFunction_Vectorcall + 0x165 (0x5573af19f7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #14: _PyObject_FastCallDictTstate + 0x65 (0x5573af170595 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #15: _PyObject_Call_Prepend + 0xe7 (0x5573af1a78f7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #16: <unknown function> + 0x2e8de7 (0x5573af27ade7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #17: PyObject_Call + 0xbe (0x5573af1a9ace in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #18: _PyEval_EvalFrameDefault + 0x43bb (0x5573af17d8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #19: _PyFunction_Vectorcall + 0x165 (0x5573af19f7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #20: _PyEval_EvalFrameDefault + 0x43bb (0x5573af17d8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #21: <unknown function> + 0x2a4435 (0x5573af236435 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #22: PyEval_EvalCode + 0x9d (0x5573af235b7d in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #23: <unknown function> + 0x2c164a (0x5573af25364a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #24: <unknown function> + 0x2bd343 (0x5573af24f343 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #25: <unknown function> + 0x2d2b80 (0x5573af264b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #26: _PyRun_SimpleFileObject + 0x1ba (0x5573af26450a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #27: _PyRun_AnyFileObject + 0x44 (0x5573af2642e4 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #28: Py_RunMain + 0x271 (0x5573af25e6a1 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #29: Py_BytesMain + 0x37 (0x5573af225a67 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #30: __libc_start_main + 0xe5 (0x7f0754489d85 in /lib64/libc.so.6)
+frame #31: <unknown function> + 0x2938d9 (0x5573af2258d9 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+
+    rdzv_info = spec.rdzv_handler.next_rendezvous()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 1170, in next_rendezvous
+    self._op_executor.run(join_op, deadline, self._get_deadline)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 648, in run
+    has_set = self._state_holder.sync()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 437, in sync
+    get_response = self._backend.get_state()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 75, in get_state
+    base64_state: bytes = self._call_store("get", self._key)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 119, in _call_store
+    raise RendezvousConnectionError(
+torch.distributed.elastic.rendezvous.api.RendezvousConnectionError: The connection to the C10d store has failed. See inner exception for details.
+W0325 14:56:32.585000 832618 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1292] The node 'n151.clstr_832618_0' has failed to shutdown the rendezvous '14398' due to an error of type RendezvousConnectionError.
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 117, in _call_store
+    return getattr(self._store, store_op)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 936, in main
+    run(args)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 927, in run
+    elastic_launch(
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 156, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 284, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 717, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 875, in _invoke_run
+    self._initialize_workers(self._worker_group)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 685, in _initialize_workers
+    self._rendezvous(worker_group)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 500, in _rendezvous
+    rdzv_info = spec.rdzv_handler.next_rendezvous()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 1170, in next_rendezvous
+    self._op_executor.run(join_op, deadline, self._get_deadline)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 648, in run
+    has_set = self._state_holder.sync()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 437, in sync
+    get_response = self._backend.get_state()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 75, in get_state
+    base64_state: bytes = self._call_store("get", self._key)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 119, in _call_store
+    raise RendezvousConnectionError(
+torch.distributed.elastic.rendezvous.api.RendezvousConnectionError: The connection to the C10d store has failed. See inner exception for details.
+[W325 14:56:32.645531309 TCPStore.cpp:138] [c10d] recvValueWithTimeout failed on SocketImpl(fd=73, addr=[n151.clstr]:49968, remote=[n151.clstr]:29500): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:697 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ff20e5b9b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ffd531 (0x7ff2509c1531 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5ffeb8d (0x7ff2509c2b8d in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fff249 (0x7ff2509c3249 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x1c6 (0x7ff2509be4f6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::TCPStore::doGet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x33 (0x7ff2509c0043 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x114 (0x7ff2509c1154 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xda2fb6 (0x7ff26010dfb6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x3cc7bd (0x7ff25f7377bd in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x1fd496 (0x5633c69c3496 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #10: _PyObject_MakeTpCall + 0x24b (0x5633c699f84b in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #11: <unknown function> + 0x22d356 (0x5633c69f3356 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #12: _PyEval_EvalFrameDefault + 0x43bb (0x5633c69b18cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #13: _PyFunction_Vectorcall + 0x165 (0x5633c69d37e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #14: _PyEval_EvalFrameDefault + 0x43bb (0x5633c69b18cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #15: _PyFunction_Vectorcall + 0x165 (0x5633c69d37e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #16: _PyEval_EvalFrameDefault + 0x43bb (0x5633c69b18cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #17: _PyFunction_Vectorcall + 0x165 (0x5633c69d37e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #18: _PyEval_EvalFrameDefault + 0x43bb (0x5633c69b18cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #19: _PyFunction_Vectorcall + 0x165 (0x5633c69d37e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #20: _PyObject_FastCallDictTstate + 0x65 (0x5633c69a4595 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #21: _PyObject_Call_Prepend + 0xe7 (0x5633c69db8f7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #22: <unknown function> + 0x2e8de7 (0x5633c6aaede7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #23: PyObject_Call + 0xbe (0x5633c69ddace in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #24: _PyEval_EvalFrameDefault + 0x43bb (0x5633c69b18cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #25: _PyFunction_Vectorcall + 0x165 (0x5633c69d37e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #26: _PyEval_EvalFrameDefault + 0x43bb (0x5633c69b18cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #27: <unknown function> + 0x2a4435 (0x5633c6a6a435 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #28: PyEval_EvalCode + 0x9d (0x5633c6a69b7d in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #29: <unknown function> + 0x2c164a (0x5633c6a8764a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #30: <unknown function> + 0x2bd343 (0x5633c6a83343 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #31: <unknown function> + 0x2d2b80 (0x5633c6a98b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #32: _PyRun_SimpleFileObject + 0x1ba (0x5633c6a9850a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #33: _PyRun_AnyFileObject + 0x44 (0x5633c6a982e4 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #34: Py_RunMain + 0x271 (0x5633c6a926a1 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #35: Py_BytesMain + 0x37 (0x5633c6a59a67 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #36: __libc_start_main + 0xe5 (0x7ff27bd89d85 in /lib64/libc.so.6)
+frame #37: <unknown function> + 0x2938d9 (0x5633c6a598d9 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+
+[W325 14:56:32.649567226 TCPStore.cpp:138] [c10d] recvValueWithTimeout failed on SocketImpl(fd=73, addr=[n151.clstr]:49948, remote=[n151.clstr]:29500): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:697 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7f5262994b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ffd531 (0x7f52a4d9c531 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5ffeb8d (0x7f52a4d9db8d in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fff249 (0x7f52a4d9e249 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x1c6 (0x7f52a4d994f6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::TCPStore::doGet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x33 (0x7f52a4d9b043 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x114 (0x7f52a4d9c154 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xda2fb6 (0x7f52b44e8fb6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x3cc7bd (0x7f52b3b127bd in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x1fd496 (0x564429698496 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #10: _PyObject_MakeTpCall + 0x24b (0x56442967484b in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #11: <unknown function> + 0x22d356 (0x5644296c8356 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #12: _PyEval_EvalFrameDefault + 0x43bb (0x5644296868cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #13: _PyFunction_Vectorcall + 0x165 (0x5644296a87e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #14: _PyEval_EvalFrameDefault + 0x43bb (0x5644296868cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #15: _PyFunction_Vectorcall + 0x165 (0x5644296a87e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #16: _PyEval_EvalFrameDefault + 0x43bb (0x5644296868cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #17: _PyFunction_Vectorcall + 0x165 (0x5644296a87e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #18: _PyEval_EvalFrameDefault + 0x43bb (0x5644296868cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #19: _PyFunction_Vectorcall + 0x165 (0x5644296a87e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #20: _PyObject_FastCallDictTstate + 0x65 (0x564429679595 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #21: _PyObject_Call_Prepend + 0xe7 (0x5644296b08f7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #22: <unknown function> + 0x2e8de7 (0x564429783de7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #23: PyObject_Call + 0xbe (0x5644296b2ace in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #24: _PyEval_EvalFrameDefault + 0x43bb (0x5644296868cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #25: _PyFunction_Vectorcall + 0x165 (0x5644296a87e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #26: _PyEval_EvalFrameDefault + 0x43bb (0x5644296868cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #27: <unknown function> + 0x2a4435 (0x56442973f435 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #28: PyEval_EvalCode + 0x9d (0x56442973eb7d in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #29: <unknown function> + 0x2c164a (0x56442975c64a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #30: <unknown function> + 0x2bd343 (0x564429758343 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #31: <unknown function> + 0x2d2b80 (0x56442976db80 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #32: _PyRun_SimpleFileObject + 0x1ba (0x56442976d50a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #33: _PyRun_AnyFileObject + 0x44 (0x56442976d2e4 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #34: Py_RunMain + 0x271 (0x5644297676a1 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #35: Py_BytesMain + 0x37 (0x56442972ea67 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #36: __libc_start_main + 0xe5 (0x7f52d0164d85 in /lib64/libc.so.6)
+frame #37: <unknown function> + 0x2938d9 (0x56442972e8d9 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+
+[W325 14:56:32.654200284 TCPStore.cpp:106] [c10d] sendBytes failed on SocketImpl(fd=73, addr=[n151.clstr]:49968, remote=[n151.clstr]:29500): Broken pipe
+Exception raised from sendBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:668 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ff20e5b9b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ffd531 (0x7ff2509c1531 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5ffddc2 (0x7ff2509c1dc2 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fff8ce (0x7ff2509c38ce in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x19e (0x7ff2509be4ce in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::TCPStore::doGet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x33 (0x7ff2509c0043 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x114 (0x7ff2509c1154 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xda2fb6 (0x7ff26010dfb6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x3cc7bd (0x7ff25f7377bd in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x1fd496 (0x5633c69c3496 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #10: _PyObject_MakeTpCall + 0x24b (0x5633c699f84b in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #11: <unknown function> + 0x22d356 (0x5633c69f3356 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #12: _PyEval_EvalFrameDefault + 0x43bb (0x5633c69b18cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #13: _PyFunction_Vectorcall + 0x165 (0x5633c69d37e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #14: _PyObject_FastCallDictTstate + 0x65 (0x5633c69a4595 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #15: _PyObject_Call_Prepend + 0xe7 (0x5633c69db8f7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #16: <unknown function> + 0x2e8de7 (0x5633c6aaede7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #17: PyObject_Call + 0xbe (0x5633c69ddace in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #18: _PyEval_EvalFrameDefault + 0x43bb (0x5633c69b18cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #19: _PyFunction_Vectorcall + 0x165 (0x5633c69d37e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #20: _PyEval_EvalFrameDefault + 0x43bb (0x5633c69b18cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #21: <unknown function> + 0x2a4435 (0x5633c6a6a435 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #22: PyEval_EvalCode + 0x9d (0x5633c6a69b7d in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #23: <unknown function> + 0x2c164a (0x5633c6a8764a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #24: <unknown function> + 0x2bd343 (0x5633c6a83343 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #25: <unknown function> + 0x2d2b80 (0x5633c6a98b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #26: _PyRun_SimpleFileObject + 0x1ba (0x5633c6a9850a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #27: _PyRun_AnyFileObject + 0x44 (0x5633c6a982e4 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #28: Py_RunMain + 0x271 (0x5633c6a926a1 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #29: Py_BytesMain + 0x37 (0x5633c6a59a67 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #30: __libc_start_main + 0xe5 (0x7ff27bd89d85 in /lib64/libc.so.6)
+frame #31: <unknown function> + 0x2938d9 (0x5633c6a598d9 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+
+W0325 14:56:32.603000 832620 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1292] The node 'n151.clstr_832620_0' has failed to shutdown the rendezvous '14398' due to an error of type RendezvousConnectionError.
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 117, in _call_store
+    return getattr(self._store, store_op)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 936, in main
+    run(args)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 927, in run
+    elastic_launch(
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 156, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 284, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 717, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 875, in _invoke_run
+    self._initialize_workers(self._worker_group)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 685, in _initialize_workers
+    self._rendezvous(worker_group)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 500, in _rendezvous
+    rdzv_info = spec.rdzv_handler.next_rendezvous()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 1170, in next_rendezvous
+    self._op_executor.run(join_op, deadline, self._get_deadline)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 648, in run
+    has_set = self._state_holder.sync()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 437, in sync
+    get_response = self._backend.get_state()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 75, in get_state
+    base64_state: bytes = self._call_store("get", self._key)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 119, in _call_store
+    raise RendezvousConnectionError(
+torch.distributed.elastic.rendezvous.api.RendezvousConnectionError: The connection to the C10d store has failed. See inner exception for details.
+[W325 14:56:32.657924661 TCPStore.cpp:106] [c10d] sendBytes failed on SocketImpl(fd=73, addr=[n151.clstr]:49948, remote=[n151.clstr]:29500): Broken pipe
+Exception raised from sendBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:668 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7f5262994b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ffd531 (0x7f52a4d9c531 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5ffddc2 (0x7f52a4d9cdc2 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fff8ce (0x7f52a4d9e8ce in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x19e (0x7f52a4d994ce in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::TCPStore::doGet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x33 (0x7f52a4d9b043 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x114 (0x7f52a4d9c154 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xda2fb6 (0x7f52b44e8fb6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x3cc7bd (0x7f52b3b127bd in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x1fd496 (0x564429698496 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #10: _PyObject_MakeTpCall + 0x24b (0x56442967484b in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #11: <unknown function> + 0x22d356 (0x5644296c8356 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #12: _PyEval_EvalFrameDefault + 0x43bb (0x5644296868cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #13: _PyFunction_Vectorcall + 0x165 (0x5644296a87e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #14: _PyObject_FastCallDictTstate + 0x65 (0x564429679595 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #15: _PyObject_Call_Prepend + 0xe7 (0x5644296b08f7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #16: <unknown function> + 0x2e8de7 (0x564429783de7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #17: PyObject_Call + 0xbe (0x5644296b2ace in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #18: _PyEval_EvalFrameDefault + 0x43bb (0x5644296868cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #19: _PyFunction_Vectorcall + 0x165 (0x5644296a87e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #20: _PyEval_EvalFrameDefault + 0x43bb (0x5644296868cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #21: <unknown function> + 0x2a4435 (0x56442973f435 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #22: PyEval_EvalCode + 0x9d (0x56442973eb7d in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #23: <unknown function> + 0x2c164a (0x56442975c64a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #24: <unknown function> + 0x2bd343 (0x564429758343 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #25: <unknown function> + 0x2d2b80 (0x56442976db80 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #26: _PyRun_SimpleFileObject + 0x1ba (0x56442976d50a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #27: _PyRun_AnyFileObject + 0x44 (0x56442976d2e4 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #28: Py_RunMain + 0x271 (0x5644297676a1 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #29: Py_BytesMain + 0x37 (0x56442972ea67 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #30: __libc_start_main + 0xe5 (0x7f52d0164d85 in /lib64/libc.so.6)
+frame #31: <unknown function> + 0x2938d9 (0x56442972e8d9 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+
+W0325 14:56:32.607000 832624 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1292] The node 'n151.clstr_832624_0' has failed to shutdown the rendezvous '14398' due to an error of type RendezvousConnectionError.
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 117, in _call_store
+    return getattr(self._store, store_op)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 936, in main
+    run(args)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 927, in run
+    elastic_launch(
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 156, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 284, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 717, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 875, in _invoke_run
+    self._initialize_workers(self._worker_group)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 685, in _initialize_workers
+    self._rendezvous(worker_group)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 500, in _rendezvous
+    rdzv_info = spec.rdzv_handler.next_rendezvous()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 1170, in next_rendezvous
+    self._op_executor.run(join_op, deadline, self._get_deadline)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 648, in run
+    has_set = self._state_holder.sync()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 437, in sync
+    get_response = self._backend.get_state()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 75, in get_state
+    base64_state: bytes = self._call_store("get", self._key)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 119, in _call_store
+    raise RendezvousConnectionError(
+torch.distributed.elastic.rendezvous.api.RendezvousConnectionError: The connection to the C10d store has failed. See inner exception for details.
+[W325 14:56:32.668804334 TCPStore.cpp:138] [c10d] recvValueWithTimeout failed on SocketImpl(fd=73, addr=[n151.clstr]:49966, remote=[n151.clstr]:29500): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:697 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7fc65fca4b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ffd531 (0x7fc6a20ac531 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5ffeb8d (0x7fc6a20adb8d in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fff249 (0x7fc6a20ae249 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x1c6 (0x7fc6a20a94f6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::TCPStore::doGet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x33 (0x7fc6a20ab043 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x114 (0x7fc6a20ac154 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xda2fb6 (0x7fc6b17f8fb6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x3cc7bd (0x7fc6b0e227bd in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x1fd496 (0x55604c65c496 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #10: _PyObject_MakeTpCall + 0x24b (0x55604c63884b in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #11: <unknown function> + 0x22d356 (0x55604c68c356 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #12: _PyEval_EvalFrameDefault + 0x43bb (0x55604c64a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #13: _PyFunction_Vectorcall + 0x165 (0x55604c66c7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #14: _PyEval_EvalFrameDefault + 0x43bb (0x55604c64a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #15: _PyFunction_Vectorcall + 0x165 (0x55604c66c7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #16: _PyEval_EvalFrameDefault + 0x43bb (0x55604c64a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #17: _PyFunction_Vectorcall + 0x165 (0x55604c66c7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #18: _PyEval_EvalFrameDefault + 0x43bb (0x55604c64a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #19: _PyFunction_Vectorcall + 0x165 (0x55604c66c7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #20: _PyObject_FastCallDictTstate + 0x65 (0x55604c63d595 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #21: _PyObject_Call_Prepend + 0xe7 (0x55604c6748f7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #22: <unknown function> + 0x2e8de7 (0x55604c747de7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #23: PyObject_Call + 0xbe (0x55604c676ace in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #24: _PyEval_EvalFrameDefault + 0x43bb (0x55604c64a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #25: _PyFunction_Vectorcall + 0x165 (0x55604c66c7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #26: _PyEval_EvalFrameDefault + 0x43bb (0x55604c64a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #27: <unknown function> + 0x2a4435 (0x55604c703435 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #28: PyEval_EvalCode + 0x9d (0x55604c702b7d in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #29: <unknown function> + 0x2c164a (0x55604c72064a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #30: <unknown function> + 0x2bd343 (0x55604c71c343 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #31: <unknown function> + 0x2d2b80 (0x55604c731b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #32: _PyRun_SimpleFileObject + 0x1ba (0x55604c73150a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #33: _PyRun_AnyFileObject + 0x44 (0x55604c7312e4 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #34: Py_RunMain + 0x271 (0x55604c72b6a1 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #35: Py_BytesMain + 0x37 (0x55604c6f2a67 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #36: __libc_start_main + 0xe5 (0x7fc6cd474d85 in /lib64/libc.so.6)
+frame #37: <unknown function> + 0x2938d9 (0x55604c6f28d9 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+
+[W325 14:56:32.678099989 TCPStore.cpp:106] [c10d] sendBytes failed on SocketImpl(fd=73, addr=[n151.clstr]:49966, remote=[n151.clstr]:29500): Broken pipe
+Exception raised from sendBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:668 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7fc65fca4b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ffd531 (0x7fc6a20ac531 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5ffddc2 (0x7fc6a20acdc2 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fff8ce (0x7fc6a20ae8ce in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x19e (0x7fc6a20a94ce in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::TCPStore::doGet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x33 (0x7fc6a20ab043 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x114 (0x7fc6a20ac154 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xda2fb6 (0x7fc6b17f8fb6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x3cc7bd (0x7fc6b0e227bd in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x1fd496 (0x55604c65c496 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #10: _PyObject_MakeTpCall + 0x24b (0x55604c63884b in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #11: <unknown function> + 0x22d356 (0x55604c68c356 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #12: _PyEval_EvalFrameDefault + 0x43bb (0x55604c64a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #13: _PyFunction_Vectorcall + 0x165 (0x55604c66c7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #14: _PyObject_FastCallDictTstate + 0x65 (0x55604c63d595 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #15: _PyObject_Call_Prepend + 0xe7 (0x55604c6748f7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #16: <unknown function> + 0x2e8de7 (0x55604c747de7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #17: PyObject_Call + 0xbe (0x55604c676ace in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #18: _PyEval_EvalFrameDefault + 0x43bb (0x55604c64a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #19: _PyFunction_Vectorcall + 0x165 (0x55604c66c7e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #20: _PyEval_EvalFrameDefault + 0x43bb (0x55604c64a8cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #21: <unknown function> + 0x2a4435 (0x55604c703435 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #22: PyEval_EvalCode + 0x9d (0x55604c702b7d in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #23: <unknown function> + 0x2c164a (0x55604c72064a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #24: <unknown function> + 0x2bd343 (0x55604c71c343 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #25: <unknown function> + 0x2d2b80 (0x55604c731b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #26: _PyRun_SimpleFileObject + 0x1ba (0x55604c73150a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #27: _PyRun_AnyFileObject + 0x44 (0x55604c7312e4 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #28: Py_RunMain + 0x271 (0x55604c72b6a1 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #29: Py_BytesMain + 0x37 (0x55604c6f2a67 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #30: __libc_start_main + 0xe5 (0x7fc6cd474d85 in /lib64/libc.so.6)
+frame #31: <unknown function> + 0x2938d9 (0x55604c6f28d9 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+
+W0325 14:56:32.627000 832623 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1292] The node 'n151.clstr_832623_0' has failed to shutdown the rendezvous '14398' due to an error of type RendezvousConnectionError.
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 117, in _call_store
+    return getattr(self._store, store_op)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 936, in main
+    run(args)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 927, in run
+    elastic_launch(
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 156, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 284, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 717, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 875, in _invoke_run
+    self._initialize_workers(self._worker_group)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 685, in _initialize_workers
+    self._rendezvous(worker_group)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 500, in _rendezvous
+    rdzv_info = spec.rdzv_handler.next_rendezvous()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 1170, in next_rendezvous
+    self._op_executor.run(join_op, deadline, self._get_deadline)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 648, in run
+    has_set = self._state_holder.sync()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 437, in sync
+    get_response = self._backend.get_state()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 75, in get_state
+    base64_state: bytes = self._call_store("get", self._key)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 119, in _call_store
+    raise RendezvousConnectionError(
+torch.distributed.elastic.rendezvous.api.RendezvousConnectionError: The connection to the C10d store has failed. See inner exception for details.
+[W325 14:56:32.843516374 TCPStore.cpp:138] [c10d] recvValueWithTimeout failed on SocketImpl(fd=73, addr=[n151.clstr]:49984, remote=[n151.clstr]:29500): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:697 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7f50c2926b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ffd531 (0x7f5104d2e531 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5ffeb8d (0x7f5104d2fb8d in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fff249 (0x7f5104d30249 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x1c6 (0x7f5104d2b4f6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::TCPStore::doGet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x33 (0x7f5104d2d043 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x114 (0x7f5104d2e154 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xda2fb6 (0x7f511447afb6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x3cc7bd (0x7f5113aa47bd in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x1fd496 (0x555ca4e05496 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #10: _PyObject_MakeTpCall + 0x24b (0x555ca4de184b in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #11: <unknown function> + 0x22d356 (0x555ca4e35356 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #12: _PyEval_EvalFrameDefault + 0x43bb (0x555ca4df38cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #13: _PyFunction_Vectorcall + 0x165 (0x555ca4e157e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #14: _PyEval_EvalFrameDefault + 0x43bb (0x555ca4df38cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #15: _PyFunction_Vectorcall + 0x165 (0x555ca4e157e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #16: _PyEval_EvalFrameDefault + 0x43bb (0x555ca4df38cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #17: _PyFunction_Vectorcall + 0x165 (0x555ca4e157e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #18: _PyEval_EvalFrameDefault + 0x43bb (0x555ca4df38cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #19: _PyFunction_Vectorcall + 0x165 (0x555ca4e157e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #20: _PyObject_FastCallDictTstate + 0x65 (0x555ca4de6595 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #21: _PyObject_Call_Prepend + 0xe7 (0x555ca4e1d8f7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #22: <unknown function> + 0x2e8de7 (0x555ca4ef0de7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #23: PyObject_Call + 0xbe (0x555ca4e1face in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #24: _PyEval_EvalFrameDefault + 0x43bb (0x555ca4df38cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #25: _PyFunction_Vectorcall + 0x165 (0x555ca4e157e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #26: _PyEval_EvalFrameDefault + 0x43bb (0x555ca4df38cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #27: <unknown function> + 0x2a4435 (0x555ca4eac435 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #28: PyEval_EvalCode + 0x9d (0x555ca4eabb7d in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #29: <unknown function> + 0x2c164a (0x555ca4ec964a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #30: <unknown function> + 0x2bd343 (0x555ca4ec5343 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #31: <unknown function> + 0x2d2b80 (0x555ca4edab80 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #32: _PyRun_SimpleFileObject + 0x1ba (0x555ca4eda50a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #33: _PyRun_AnyFileObject + 0x44 (0x555ca4eda2e4 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #34: Py_RunMain + 0x271 (0x555ca4ed46a1 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #35: Py_BytesMain + 0x37 (0x555ca4e9ba67 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #36: __libc_start_main + 0xe5 (0x7f51300f6d85 in /lib64/libc.so.6)
+frame #37: <unknown function> + 0x2938d9 (0x555ca4e9b8d9 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+
+[W325 14:56:32.853125208 TCPStore.cpp:106] [c10d] sendBytes failed on SocketImpl(fd=73, addr=[n151.clstr]:49984, remote=[n151.clstr]:29500): Broken pipe
+Exception raised from sendBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:668 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7f50c2926b80 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ffd531 (0x7f5104d2e531 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5ffddc2 (0x7f5104d2edc2 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5fff8ce (0x7f5104d308ce in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x19e (0x7f5104d2b4ce in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::TCPStore::doGet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x33 (0x7f5104d2d043 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) + 0x114 (0x7f5104d2e154 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xda2fb6 (0x7f511447afb6 in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x3cc7bd (0x7f5113aa47bd in /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x1fd496 (0x555ca4e05496 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #10: _PyObject_MakeTpCall + 0x24b (0x555ca4de184b in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #11: <unknown function> + 0x22d356 (0x555ca4e35356 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #12: _PyEval_EvalFrameDefault + 0x43bb (0x555ca4df38cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #13: _PyFunction_Vectorcall + 0x165 (0x555ca4e157e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #14: _PyObject_FastCallDictTstate + 0x65 (0x555ca4de6595 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #15: _PyObject_Call_Prepend + 0xe7 (0x555ca4e1d8f7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #16: <unknown function> + 0x2e8de7 (0x555ca4ef0de7 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #17: PyObject_Call + 0xbe (0x555ca4e1face in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #18: _PyEval_EvalFrameDefault + 0x43bb (0x555ca4df38cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #19: _PyFunction_Vectorcall + 0x165 (0x555ca4e157e5 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #20: _PyEval_EvalFrameDefault + 0x43bb (0x555ca4df38cb in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #21: <unknown function> + 0x2a4435 (0x555ca4eac435 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #22: PyEval_EvalCode + 0x9d (0x555ca4eabb7d in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #23: <unknown function> + 0x2c164a (0x555ca4ec964a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #24: <unknown function> + 0x2bd343 (0x555ca4ec5343 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #25: <unknown function> + 0x2d2b80 (0x555ca4edab80 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #26: _PyRun_SimpleFileObject + 0x1ba (0x555ca4eda50a in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #27: _PyRun_AnyFileObject + 0x44 (0x555ca4eda2e4 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #28: Py_RunMain + 0x271 (0x555ca4ed46a1 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #29: Py_BytesMain + 0x37 (0x555ca4e9ba67 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+frame #30: __libc_start_main + 0xe5 (0x7f51300f6d85 in /lib64/libc.so.6)
+frame #31: <unknown function> + 0x2938d9 (0x555ca4e9b8d9 in /home/aejohnson13/miniforge3/envs/pytorch_env/bin/python)
+
+W0325 14:56:32.803000 832621 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:1292] The node 'n151.clstr_832621_0' has failed to shutdown the rendezvous '14398' due to an error of type RendezvousConnectionError.
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 117, in _call_store
+    return getattr(self._store, store_op)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/bin/torchrun", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 936, in main
+    run(args)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py", line 927, in run
+    elastic_launch(
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 156, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 284, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 717, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 875, in _invoke_run
+    self._initialize_workers(self._worker_group)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 685, in _initialize_workers
+    self._rendezvous(worker_group)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 500, in _rendezvous
+    rdzv_info = spec.rdzv_handler.next_rendezvous()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 1170, in next_rendezvous
+    self._op_executor.run(join_op, deadline, self._get_deadline)
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 648, in run
+    has_set = self._state_holder.sync()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py", line 437, in sync
+    get_response = self._backend.get_state()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 75, in get_state
+    base64_state: bytes = self._call_store("get", self._key)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/rendezvous/c10d_rendezvous_backend.py", line 119, in _call_store
+    raise RendezvousConnectionError(
+torch.distributed.elastic.rendezvous.api.RendezvousConnectionError: The connection to the C10d store has failed. See inner exception for details.
+srun: error: n151: tasks 0,2,4-7: Exited with exit code 1
+srun: error: n151: task 3: Exited with exit code 1

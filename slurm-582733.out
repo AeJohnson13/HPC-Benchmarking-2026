@@ -1,7 +1,10 @@
-Node IP: 10.50.58.151
+Node IP: 10.50.58.153
 made it to main
 [DEBUG] RANK=0 LOCAL_RANK=0
 [DEBUG] init_process_group DONE for rank 0
+1
+1
+1
 after ddp setup
 after dataloader
 after model
@@ -12,22 +15,21 @@ cuda version: 12.8
 number of gpus: 1
 /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
   warnings.warn(  # warn only once
-Loss: 2.23937609375
-Loss: 1.67264140625
-Loss: 1.34153453125
-Loss: 1.0979509375
-Loss: 0.90610828125
-Loss: 0.74706890625
-Loss: 0.6154610546875
-Loss: 0.5190266796875
-Loss: 0.4423971875
-Loss: 0.3866546875
-Loss: 0.343203671875
-Loss: 0.30058462890625
-Loss: 0.2714703515625
-Loss: 0.2505225390625
-Loss: 0.23119724609375
-done training, output saved to run_1_1_581623.csv
+Loss: 2.23073015625
+Loss: 1.664299375
+Loss: 1.3420596875
+Loss: 1.095106953125
+Loss: 0.902739921875
+Loss: 0.73981515625
+Loss: 0.6118085546875
+Loss: 0.516083671875
+Loss: 0.432264296875
+Loss: 0.385625546875
+Loss: 0.3392672265625
+Loss: 0.29593794921875
+Loss: 0.2772727734375
+Loss: 0.24691576171875
+done training, output saved to run_1_1_582733.csv
 /home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
   warnings.warn(  # warn only once
-[rank0]:[W324 13:07:28.503062296 ProcessGroupNCCL.cpp:1524] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+[rank0]:[W325 14:46:07.795669982 ProcessGroupNCCL.cpp:1524] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
