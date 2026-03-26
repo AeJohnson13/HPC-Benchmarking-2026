@@ -50,7 +50,7 @@ def get_dataloader(use_ddp, world_size):
         training_sampler = DistributedSampler(training_data)
         training_loader = torch.utils.data.DataLoader(
             training_data,
-            batch_size=BATCH_SIZE*world_size, 
+            batch_size=BATCH_SIZE,
             sampler=training_sampler,
             num_workers=NUM_WORKERS,
             pin_memory=True
@@ -59,7 +59,7 @@ def get_dataloader(use_ddp, world_size):
     else:
         training_loader = torch.utils.data.DataLoader(
             training_data,
-            batch_size=BATCH_SIZE*world_size, 
+            batch_size=BATCH_SIZE,
             num_workers=NUM_WORKERS
         ) 
         return training_loader

@@ -17,9 +17,9 @@ def build_model(device, local_rank, use_ddp):
     if use_ddp == True:
         torch.cuda.set_device(local_rank)
         model = model.to(local_rank)
-        model = DDP(model, device_ids=[local_rank],output_device=local_rank)
+        model = DDP(model, device_ids=[local_rank],output_device=local_rank, broadcast_buffers=False)
 
     else:
-        model.to(device)
+        model = model.to(device)
 
     return model
