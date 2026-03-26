@@ -108,14 +108,14 @@ def main():
         if global_rank == 0:
             epoch_time = time.perf_counter() - start_time
 
-        if use_ddp:
-            tensor = torch.tensor([epoch_loss, num_samples], device=device)
-            dist.all_reduce(tensor, op=dist.ReduceOp.SUM)
+        #if use_ddp:
+        #    tensor = torch.tensor([epoch_loss, num_samples], device=device)
+        #    dist.all_reduce(tensor, op=dist.ReduceOp.SUM)
 
-            epoch_loss = tensor[0].item()
-            num_samples = tensor[1].item()
+        #    epoch_loss = tensor[0].item()
+        #    num_samples = tensor[1].item()
         
-        epoch_loss /= num_samples
+        #epoch_loss /= num_samples
         if global_rank == 0: 
             print(f"Loss: {epoch_loss}")
             output.append({"Epoch": epoch, "epoch_time": epoch_time, " loss": epoch_loss})
@@ -135,7 +135,7 @@ def main():
         print(f"done training, output saved to {filename}")
     if use_ddp == True : 
         dist.barrier()
-        cleanup_ddp
+        cleanup_ddp()
 
 ## runs main function when script is called directly 
 if __name__ == "__main__":
