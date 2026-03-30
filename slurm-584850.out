@@ -1,0 +1,165 @@
+Node IP: 10.50.58.151
+W0326 10:37:12.676000 2172134 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0326 10:37:12.676000 2172134 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0326 10:37:12.676000 2172134 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0326 10:37:12.676000 2172134 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0326 10:37:12.676000 2172137 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0326 10:37:12.676000 2172137 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0326 10:37:12.676000 2172137 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0326 10:37:12.676000 2172137 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0326 10:37:12.676000 2172138 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0326 10:37:12.676000 2172138 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0326 10:37:12.676000 2172138 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0326 10:37:12.676000 2172138 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0326 10:37:12.676000 2172135 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0326 10:37:12.676000 2172135 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0326 10:37:12.676000 2172135 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0326 10:37:12.676000 2172135 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0326 10:37:12.676000 2172141 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0326 10:37:12.676000 2172141 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0326 10:37:12.676000 2172141 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0326 10:37:12.676000 2172141 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0326 10:37:12.677000 2172140 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0326 10:37:12.677000 2172140 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0326 10:37:12.677000 2172140 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0326 10:37:12.677000 2172140 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0326 10:37:12.677000 2172139 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0326 10:37:12.677000 2172139 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0326 10:37:12.677000 2172139 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0326 10:37:12.677000 2172139 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0326 10:37:12.677000 2172136 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0326 10:37:12.677000 2172136 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0326 10:37:12.677000 2172136 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0326 10:37:12.677000 2172136 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+made it to main
+[DEBUG] RANK=5 LOCAL_RANK=5
+made it to main
+[DEBUG] RANK=4 LOCAL_RANK=4
+made it to main
+made it to main
+[DEBUG] RANK=6 LOCAL_RANK=6
+[DEBUG] RANK=0 LOCAL_RANK=0
+made it to main
+[DEBUG] RANK=7 LOCAL_RANK=7
+made it to main
+[DEBUG] RANK=3 LOCAL_RANK=3
+made it to main
+[DEBUG] RANK=2 LOCAL_RANK=2
+made it to main
+[DEBUG] RANK=1 LOCAL_RANK=1
+[DEBUG] init_process_group DONE for rank 6
+[DEBUG] init_process_group DONE for rank 5
+[DEBUG] init_process_group DONE for rank 4
+[DEBUG] init_process_group DONE for rank 3
+[DEBUG] init_process_group DONE for rank 7
+[DEBUG] init_process_group DONE for rank 0
+[DEBUG] init_process_group DONE for rank 2
+[DEBUG] init_process_group DONE for rank 1
+8
+1
+8
+after ddp setup
+8
+1
+8
+after ddp setup
+8
+1
+8
+after ddp setup
+8
+1
+8
+after ddp setup
+8
+1
+8
+after ddp setup
+8
+1
+8
+after ddp setup
+8
+1
+8
+after ddp setup
+8
+1
+8
+after ddp setup
+after dataloader
+after dataloader
+after dataloader
+after dataloader
+after dataloader
+after dataloader
+after dataloader
+after dataloader
+after model
+after model
+after model
+after model
+after optimizer
+after model
+after loss
+after optimizer
+after model
+after loss
+after optimizer
+after loss
+after optimizer
+after optimizer
+after optimizer
+after loss
+after lossafter loss
+
+is cuda available True
+cuda version: 12.8
+number of gpus: 8
+after model
+after model
+/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  warnings.warn(  # warn only once
+after optimizer
+after loss
+after optimizer
+after loss
+Loss: 72480.19735336304
+Loss: 56353.658573150635
+Loss: 45371.03650474548
+Loss: 39340.2238111496
+Loss: 35492.7563085556
+Loss: 31528.70945072174
+Loss: 28963.27234363556
+Loss: 27073.74481868744
+Loss: 25494.31569290161
+Loss: 24672.621649742126
+Loss: 23480.29691886902
+Loss: 22303.907234191895
+Loss: 21641.524662017822
+Loss: 20464.375064373016
+Loss: 19546.85920190811
+Loss: 19644.967550754547
+Loss: 18616.852539539337
+Loss: 18184.29534816742
+Loss: 17740.85198020935
+Loss: 17326.04424762726
+Loss: 16206.956616401672
+Loss: 16244.633859157562
+Loss: 16028.868052482605
+Loss: 15443.706065654755
+Loss: 14984.594862937927
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+slurmstepd: error: *** STEP 584850.1 ON n151 CANCELLED AT 2026-03-26T10:55:37 ***
+W0326 10:55:37.928000 2172141 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:725] Received 15 death signal, shutting down workers
+slurmstepd: error: *** JOB 584850 ON n151 CANCELLED AT 2026-03-26T10:55:37 ***
+srun: forcing job termination
+W0326 10:55:37.929000 2172141 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:908] Sending process 2172554 closing signal SIGTERM
+W0326 10:55:37.931000 2172141 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:908] Sending process 2172555 closing signal SIGTERM
+W0326 10:55:37.932000 2172141 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:908] Sending process 2172556 closing signal SIGTERM
+W0326 10:55:37.933000 2172141 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:908] Sending process 2172557 closing signal SIGTERM
+W0326 10:55:37.934000 2172141 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:908] Sending process 2172558 closing signal SIGTERM
+W0326 10:55:37.937000 2172141 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:908] Sending process 2172559 closing signal SIGTERM
+W0326 10:55:37.938000 2172141 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:908] Sending process 2172560 closing signal SIGTERM
+W0326 10:55:37.938000 2172141 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:908] Sending process 2172561 closing signal SIGTERM
