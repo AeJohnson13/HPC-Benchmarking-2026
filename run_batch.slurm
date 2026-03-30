@@ -10,24 +10,6 @@ conda activate pytorch_env
 
 module load slurm
 
-
-############################
-# ignore while debugging
-############################
-#./query_gpu.sh $SLURM_JOB_ID &
-#query_pid=$!
-#echo $query_pid
-
-#cleanup() {
-#	kill -TERM "$query_pid" 2>/dev/null
-#	wait "$query_pid" 2>/dev/null
-#}
-
-#trap cleanup SIGINT EXIT
-###########################
-
-
-
 nodes=( $( scontrol show hostnames $SLURM_NODELIST ) )
 node_array=($nodes)
 head_node=${node_array[0]}
