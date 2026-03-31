@@ -7,10 +7,11 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
+import math
 from config import LEARNING_RATE
 
 def get_optimizer(model, world_size):
-    return optim.Adam(model.parameters(), lr=LEARNING_RATE * world_size)
+    return optim.Adam(model.parameters(), lr=(LEARNING_RATE * math.sqrt(world_size)))
 
 def get_loss_fn():
     return torch.nn.CrossEntropyLoss()
