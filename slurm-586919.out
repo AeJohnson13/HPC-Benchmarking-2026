@@ -1,0 +1,6 @@
+Node IP: 10.50.58.153
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+slurmstepd: error: *** STEP 586919.1 ON n153 CANCELLED AT 2026-04-02T13:03:52 ***
+slurmstepd: error: *** JOB 586919 ON n153 CANCELLED AT 2026-04-02T13:03:52 ***
+srun: forcing job termination
