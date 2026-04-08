@@ -1,0 +1,45 @@
+Node IP: 10.50.58.151
+made it to main
+[DEBUG] RANK=0 LOCAL_RANK=0
+made it to main
+[DEBUG] RANK=1 LOCAL_RANK=0
+[DEBUG] init_process_group DONE for rank 0
+[DEBUG] init_process_group DONE for rank 1
+1
+2
+2
+after ddp setup
+1
+2
+2
+after ddp setup
+after dataloader
+after dataloader
+after model
+after optimizer
+after loss
+after model
+after optimizer
+after loss
+is cuda available True
+cuda version: 12.8
+number of gpus: 1
+/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  warnings.warn(  # warn only once
+Loss: 2.24977828125
+Loss: 1.63325390625
+Loss: 1.3021315625
+Loss: 1.04375671875
+Loss: 0.848853125
+Loss: 0.70303515625
+Loss: 0.5919926953125
+Loss: 0.50373796875
+Loss: 0.4253825
+Loss: 0.379034765625
+Loss: 0.33779734375
+Loss: 0.2999884765625
+Loss: 0.274994375
+Loss: 0.24950908203125
+done training, output saved to run_2_1_590762.csv
+/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  warnings.warn(  # warn only once
