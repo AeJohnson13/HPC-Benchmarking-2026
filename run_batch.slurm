@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --partition=h100
+#SBATCH --partition=l40s
 
 export NODE_RANK=$SLURM_NODEID
 
