@@ -41,7 +41,7 @@ slurm_output=$(sbatch  \
 	--nodes=$nodes \
 	--ntasks-per-node=$gpus \
 	--gpus-per-node=$gpus \
-	--export=NUM_NODES=$nodes,  \
+	--export=NUM_NODES=$nodes  \
 	run_batch.slurm)
 
 re='([0-9]+)'
