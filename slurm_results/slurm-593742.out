@@ -1,0 +1,56 @@
+Node IP: 10.50.58.154
+W0409 13:23:10.937000 2732926 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0409 13:23:10.937000 2732926 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0409 13:23:10.937000 2732926 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0409 13:23:10.937000 2732926 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0409 13:23:10.937000 2732927 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] 
+W0409 13:23:10.937000 2732927 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+W0409 13:23:10.937000 2732927 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0409 13:23:10.937000 2732927 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/run.py:803] *****************************************
+made it to main
+[DEBUG] RANK=1 LOCAL_RANK=1
+made it to main
+[DEBUG] RANK=0 LOCAL_RANK=0
+[DEBUG] init_process_group DONE for rank 1
+[DEBUG] init_process_group DONE for rank 0
+2
+1
+2
+after ddp setup
+2
+1
+2
+after ddp setup
+after dataloader
+after dataloader
+after model
+after optimizer
+after loss
+is cuda available True
+cuda version: 12.8
+number of gpus: 2
+after model
+/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/distributed_c10d.py:4876: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  warnings.warn(  # warn only once
+after optimizer
+after loss
+Loss: 2.254743125
+Loss: 1.6427203125
+Loss: 1.29371765625
+Loss: 1.051748828125
+Loss: 0.843695
+Loss: 0.703707109375
+Loss: 0.58377984375
+Loss: 0.494855703125
+Loss: 0.428855078125
+Loss: 0.373376171875
+Loss: 0.339593515625
+Loss: 0.29948482421875
+srun: got SIGCONT
+slurmstepd: error: *** STEP 593742.1 ON n154 CANCELLED AT 2026-04-09T13:42:11 ***
+slurmstepd: error: *** JOB 593742 ON n154 CANCELLED AT 2026-04-09T13:42:11 ***
+srun: forcing job termination
+W0409 13:42:11.066000 2732926 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py:725] Received 15 death signal, shutting down workers
+W0409 13:42:11.067000 2732926 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:908] Sending process 2733033 closing signal SIGTERM
+W0409 13:42:11.068000 2732926 /import/home/aejohnson13/miniforge3/envs/pytorch_env/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py:908] Sending process 2733034 closing signal SIGTERM
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
