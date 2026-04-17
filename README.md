@@ -23,3 +23,6 @@ To add a new model:
 -Add the model's unique logic to the engine.py script
 -Add the .yaml or .json to the configs folder (if needed)
 -
+
+To run a benchmarking command:
+./run_benchmark --nodes=1 --gpus=8 --partition=l40s --model=resnet
