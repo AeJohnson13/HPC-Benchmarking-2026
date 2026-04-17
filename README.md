@@ -1,5 +1,5 @@
 # HPC Benchmarking Code- Framework
-Code for the 2026 HPC benchmarking project framework\
+Code for the 2026 HPC benchmarking project framework.
 
 The framework is structured as follows:
 
@@ -7,22 +7,22 @@ The framework is structured as follows:
 benchmark_framework/
 ├── configs/                # Hyperparameters for different models
 │   ├── resnet.yaml
-│   └── bert.yaml
+│   └── other.yaml
 |
 ├── models/                 # Model-specific PyTorch logic
 │   ├── resnet_benchmark.py
 │   └── other_benchmark.py
 |
-├── scripts/                # Utility scripts (e.g., GPU warming)
-├── run_benchmark.sh        # The main entry point
-└── engine.py               # Common PyTorch benchmarking logic
+├── scripts/                # General benchmarking scripts
+├── run_benchmark.sh        # The main entry point, sbatch script generator
+└── engine.py               # Common PyTorch benchmarking logic, timing function
 </pre>
 
-To add a new model:
 
--Add the model's unique logic to the engine.py script
--Add the .yaml or .json to the configs folder (if needed)
--
+# To add a new model:
 
-To run a benchmarking command:
+Add the model's unique logic to the engine.py script
+Add the .yaml or .json to the configs folder (if needed)
+
+# To run a benchmarking command:
 ./run_benchmark --nodes=1 --gpus=8 --partition=l40s --model=resnet
