@@ -7,17 +7,18 @@ PARTITION = l40s
 MODEL = "resnet"
 
 # Argument Parser
-while ["$#" -gt > 0]; do 
+while [[ "$#" -gt 0 ]]; do 
     case $1 in
-        --nodes=*) NODES="${1#*=}"
-        --gpus=*) GPUS="${1#*=}"
-        --partition=*) PARTITION="${1#*=}"
-        --model=*) MODEL="${1#*=}"
+        --nodes=*) NODES="${1#*=}" ;;
+        --gpus=*) GPUS="${1#*=}" ;;
+        --partition=*) PARTITION="${1#*=}" ;;
+        --model=*) MODEL="${1#*=}" ;;
     esac
     shift
 done
 
 JOB_NAME="bench_${MODEL}_N${NODES}_G${GPUS}"
+mkdir -p benchmark_results
 
 # Make temporary sbatch script to run
 cat <<EOT > temp_bench.sh
@@ -29,9 +30,22 @@ cat <<EOT > temp_bench.sh
 #SBATCH --partition=$PARTITION
 #SBATCH --output=logs/%j_$JOB_NAME.out
 
+
 # Use srun to launch the PyTorch distributed processes
-srun python engine.py --model=$MODEL --nodes=$NODES --gpus_per_node=$GPUS
-EOT
+#srun python engine.py --model=$MODEL --nodes=$NODES --gpus_per_node=$GPUS
+
 
 sbatch temp_bench.sh
-rm temp_bench.sh
+# rm temp_bench.sh
+
+srun --ntasks-per-node=1 /home/$USER/miniforge3/envs/pytorch_env/bin/torchrun \
+  --nnodes=$NODES \
+  --nproc_per_node=$GPUS \
+  --rdzv_id $RANDOM \
+  --rdzv_backend c10d \
+  --rdzv_endpoint $head_node_ip:29500 \
+  /home/$USER/HPC-Benchmarking-2026/zscripts/engine.py \
+  --job_id $SLURM_JOB_ID \
+  --num_nodes $NODES
+
+EOT
