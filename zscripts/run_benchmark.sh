@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Benchmarking default values
-NODES = 1
-GPUS = 1
-PARTITION = l40s
-MODEL = "resnet"
+NODES=1
+GPUS=1
+PARTITION="l40s"
+MODEL="resnet"
 
 # Argument Parser
 while [[ "$#" -gt 0 ]]; do 
