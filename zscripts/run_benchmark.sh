@@ -34,10 +34,6 @@ cat <<EOT > temp_bench.sh
 # Use srun to launch the PyTorch distributed processes
 #srun python engine.py --model=$MODEL --nodes=$NODES --gpus_per_node=$GPUS
 
-
-sbatch temp_bench.sh
-# rm temp_bench.sh
-
 srun --ntasks-per-node=1 /home/$USER/miniforge3/envs/pytorch_env/bin/torchrun \
   --nnodes=$NODES \
   --nproc_per_node=$GPUS \
@@ -49,3 +45,7 @@ srun --ntasks-per-node=1 /home/$USER/miniforge3/envs/pytorch_env/bin/torchrun \
   --num_nodes $NODES
 
 EOT
+
+sbatch temp_bench.sh
+rm temp_bench.sh
+echo "Job submitted successfully"
